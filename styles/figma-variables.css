@@ -1,0 +1,190 @@
+/**
+ * Visa CTP Email Design Tokens
+ * Source: Figma — CTP to SRC Comms Updates
+ * File key: XiPE3HFLRSUAlWj75K7AMn  |  Node: 44-3330
+ * Last synced: 2026-05-07
+ *
+ * NOTE: CSS custom properties are NOT supported in email clients.
+ * Use these as a reference layer for build tools or design system docs.
+ * All email template values must be inlined as resolved hex/px literals.
+ */
+
+:root {
+
+  /* ============================================================
+   * BRAND COLORS — Visa / Click to Pay
+   * ============================================================ */
+
+  --visa-blue:            #1434cb;   /* CardHeader bg, Title, CTA button fill */
+  --visa-blue-active:     #0d68f2;   /* Links, "Manage my cards", active states */
+  --visa-blue-nav:        #0042b3;   /* Navigation arrow, secondary blue */
+  --visa-blue-light:      #e8edfc;   /* Identifiers / light panel background */
+  --visa-blue-pale:       #f2f4f8;   /* Linked details section background */
+
+
+  /* ============================================================
+   * TEXT COLORS
+   * ============================================================ */
+
+  --text-heading:         #1434cb;   /* Hero title on white (matches Visa blue) */
+  --text-primary:         #141413;   /* Body copy (warm near-black) */
+  --text-section:         #292829;   /* Section headings (How it works, FAQ) */
+  --text-card:            #1f242e;   /* Card/bullet text, SF Pro labels */
+  --text-meta:            #22242a;   /* Email client metadata (subject, sender) */
+  --text-secondary:       #374053;   /* Status bar, secondary muted text */
+  --text-footer:          #4a4a4a;   /* Footer / legal copy */
+  --text-muted:           #686b70;   /* Timestamps, "to me" metadata */
+  --text-placeholder:     #848fa4;   /* Tertiary / placeholder / additional info */
+  --text-on-brand:        #ffffff;   /* White text on Visa blue backgrounds */
+
+
+  /* ============================================================
+   * BACKGROUND COLORS
+   * ============================================================ */
+
+  --bg-page:              #f0f0f0;   /* EmailLayout outer page background */
+  --bg-card:              #ffffff;   /* Email body / card background */
+  --bg-near-white:        #fcfcfe;   /* EU 2024 Draft, NavigationBar */
+  --bg-section-light:     #f5f5f5;   /* Identifiers section background */
+  --bg-panel-blue:        #f2f4f8;   /* Linked details panel background */
+  --bg-container-blue:    #e8edfc;   /* Identifiers container light blue */
+  --bg-tag:               #e7e9ef;   /* Chip / tag background */
+  --bg-divider:           #e6e6e6;   /* EmailLayout border / subtle divider */
+  --bg-header:            #1434cb;   /* CardHeader / email hero band */
+  --bg-footer:            #fafafa;   /* Footer band */
+  --bg-button:            #1434cb;   /* Primary CTA button */
+
+
+  /* ============================================================
+   * DARK MODE TOKEN OVERRIDES
+   * (apply via @media prefers-color-scheme: dark and [data-ogsc])
+   * ============================================================ */
+
+  --dark-bg-page:         #1a1a1a;
+  --dark-bg-card:         #1a1a1a;
+  --dark-bg-header:       #1e1e1e;
+  --dark-bg-hero:         #0d1b3e;
+  --dark-bg-panel:        #0d1b2a;
+  --dark-bg-footer:       #111111;
+  --dark-bg-button:       #3a6bbf;
+
+  --dark-text-heading:    #bdd5e8;
+  --dark-text-primary:    #e0e0e0;
+  --dark-text-section:    #7ab3d4;
+  --dark-text-footer:     #888888;
+  --dark-text-link:       #7ab3d4;
+  --dark-border:          #2a3a4a;
+
+
+  /* ============================================================
+   * TYPOGRAPHY — Font Families
+   * (Figma source fonts; email fallback stacks below)
+   * ============================================================ */
+
+  /* Figma source fonts */
+  --font-headline:        'Helvetica', Arial, sans-serif;
+  --font-body:            'Figtree', 'Montserrat', Arial, sans-serif;
+  --font-body-alt:        'Inter', Arial, sans-serif;
+  --font-footer:          'Visa Dialect UI', 'Helvetica', Arial, sans-serif;
+  --font-meta:            'Open Sans', Arial, sans-serif;
+  --font-card:            'SF Pro Text', 'SF Pro', Arial, sans-serif;
+
+  /* Email-safe fallback stack (use these inline in HTML templates) */
+  --font-email-safe:      Arial, Helvetica, Verdana, sans-serif;
+
+
+  /* ============================================================
+   * TYPOGRAPHY — Scale (from Figma specs)
+   * ============================================================ */
+
+  /* Hero / Display */
+  --fs-hero:              36px;
+  --fw-hero:              700;
+  --lh-hero:              47px;     /* 1.31x */
+
+  /* Title — Figma Make / CTA header */
+  --fs-title:             32px;
+  --fw-title:             600;
+  --lh-title:             48px;     /* 1.5x */
+
+  /* Section heading (H2) */
+  --fs-h2:                21px;
+  --fw-h2:                700;
+  --lh-h2:                25px;
+
+  /* Sub-heading (H3 / FAQ question) */
+  --fs-h3:                18px;
+  --fw-h3:                700;
+  --lh-h3:                22px;
+
+  /* Card / email client heading */
+  --fs-card-title:        20px;
+  --fw-card-title:        600;
+  --lh-card-title:        30px;
+
+  /* Body copy */
+  --fs-body:              14px;
+  --fw-body:              400;
+  --lh-body:              21px;     /* 1.5x */
+
+  /* Body copy (larger — Figtree variant) */
+  --fs-body-lg:           18px;
+  --fw-body-lg:           400;
+  --lh-body-lg:           22px;
+
+  /* Link / CTA label */
+  --fs-link:              18px;
+  --fw-link:              500;
+
+  /* Identifier / account info */
+  --fs-identifier:        16px;
+  --fw-identifier:        700;
+
+  /* Footer / legal */
+  --fs-footer:            11px;
+  --fw-footer:            400;
+  --lh-footer:            16px;
+
+
+  /* ============================================================
+   * LAYOUT & SPACING — from Figma frame measurements
+   * ============================================================ */
+
+  /* Email container widths */
+  --email-desktop-width:  768px;
+  --email-mobile-width:   393px;
+  --email-mobile-break:   600px;
+
+  /* Section padding (CardHeader / CardContent) */
+  --pad-header-v:         24px;     /* CardHeader T/B */
+  --pad-header-h:         32px;     /* CardHeader L/R */
+  --pad-content-v:        32px;     /* CardContent T/B */
+  --pad-content-h:        32px;     /* CardContent L/R */
+  --pad-footer-v:         24px;
+  --pad-footer-h:         32px;
+  --pad-section-v:        24px;     /* Identifiers / panels T/B */
+  --pad-section-h:        24px;     /* Identifiers / panels L/R */
+  --pad-mobile-h:         16px;     /* Mobile horizontal padding */
+
+  /* Gap / item spacing */
+  --gap-layout:           32px;     /* EmailLayout top-level gap */
+  --gap-section:          24px;     /* How it works, FAQ sections */
+  --gap-item:             16px;     /* Items within sections */
+  --gap-icon-text:        12px;     /* Icon-to-text gap in icon rows */
+  --gap-card:             20px;     /* Card container gap */
+  --gap-paragraph:        8px;      /* Between heading and paragraph */
+
+  /* Component sizes */
+  --icon-size:            28px;
+  --icon-col-width:       44px;
+  --logo-width:           72px;
+  --logo-height:          24px;
+  --ctp-icon-width:       22px;
+  --ctp-icon-height:      15px;
+
+  /* Border */
+  --border-header:        3px solid #1434cb;
+  --border-divider:       1px solid #e6e6e6;
+  --border-radius-btn:    4px;
+
+}

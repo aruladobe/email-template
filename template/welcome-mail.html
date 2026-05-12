@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>Welcome to Click to Pay</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style type="text/css">
+    /* RESET */
+    * {
+      box-sizing: border-box;
+    }
+
+    body,
+    table,
+    td,
+    a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+      border-collapse: collapse;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+      border: 0;
+      display: block;
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+    }
+
+    /* IMAGE MODE SWITCHING */
+    .light-img {
+      display: block;
+    }
+
+    .dark-img {
+      display: none;
+    }
+
+    .font-color-heading {
+      color: #ffffff;
+    }
+
+    .faq-question {
+      color: #000000;
+    }
+
+    .eyebrow-text {
+      color: #C7EDFF !important;
+    }
+
+    /* DARK MODE via @media — Apple Mail, iOS Mail, Outlook.com partial */
+    @media (prefers-color-scheme: dark) {
+
+      .font-color-heading {
+        color: #2E2E2E !important;
+      }
+
+      .email-bg {
+        background-color: #2E2E2E !important;
+      }
+
+      .email-wrapper {
+        background-color: #2E2E2E !important;
+      }
+
+      .email-header {
+        background-color: #2E2E2E !important;
+      }
+
+      .email-hero {
+        background-color: #BDEAFF !important;
+      }
+
+      .email-accent {
+        background-color: #00344D !important;
+      }
+
+      .email-body {
+        background-color: #2E2E2E !important;
+      }
+
+      .email-footer {
+        background-color: #1A1A1A !important;
+      }
+
+      h1 {
+        color: #e8e8e8 !important;
+      }
+
+      h2,
+      h3 {
+        color: #BDEAFF !important;
+      }
+
+      p,
+      li,
+      td,
+      span {
+        color: #e0e0e0 !important;
+      }
+
+      .accent-text {
+        color: #bdd5e8 !important;
+      }
+
+      .muted-text {
+        color: #D9D9D9 !important;
+      }
+
+      a.link {
+        color: #BDEAFF !important;
+      }
+
+      .footer-link {
+        color: #BDEAFF !important;
+      }
+
+      .light-img {
+        display: none !important;
+      }
+
+      .dark-img {
+        display: inline-block !important;
+      }
+
+      .faq-question {
+        color: #ffffff !important;
+      }
+
+      .eyebrow-text {
+        color: #00344D !important;
+      }
+    }
+
+    /* DARK MODE via [data-ogsc] — Outlook App iOS + Android, Outlook.com */
+    [data-ogsc] .email-bg {
+      background-color: #2E2E2E !important;
+    }
+
+    [data-ogsc] .faq-question {
+      color: #ffffff !important;
+    }
+
+    [data-ogsc] .email-wrapper {
+      background-color: #2E2E2E !important;
+    }
+
+    [data-ogsc] .email-header {
+      background-color: #2E2E2E !important;
+    }
+
+    [data-ogsc] .email-hero {
+      background-color: #BDEAFF !important;
+    }
+
+    [data-ogsc] .email-accent {
+      background-color: #00344D !important;
+    }
+
+    [data-ogsc] .email-body {
+      background-color: #2E2E2E !important;
+    }
+
+    [data-ogsc] .email-footer {
+      background-color: #111111 !important;
+    }
+
+    [data-ogsc] h1 {
+      color: #e8e8e8 !important;
+    }
+
+    [data-ogsc] h2,
+    [data-ogsc] h3 {
+      color: #BDEAFF !important;
+    }
+
+    [data-ogsc] p,
+    [data-ogsc] li,
+    [data-ogsc] td,
+    [data-ogsc] span {
+      color: #e0e0e0 !important;
+    }
+
+    [data-ogsc] .accent-text {
+      color: #bdd5e8 !important;
+    }
+
+    [data-ogsc] .muted-text {
+      color: #D9D9D9 !important;
+    }
+
+    [data-ogsc] a.link {
+      color: #BDEAFF !important;
+    }
+
+    [data-ogsc] .footer-link {
+      color: #BDEAFF !important;
+    }
+
+    [data-ogsc] .light-img {
+      display: none !important;
+    }
+
+    [data-ogsc] .dark-img {
+      display: block !important;
+    }
+
+    [data-ogsc] .font-color-heading {
+      color: #ffffff !important;
+    }
+
+    [data-ogsc] .eyebrow-text {
+      color: #00344D !important;
+    }
+
+    /* RESPONSIVE — MOBILE */
+    @media only screen and (max-width: 600px) {
+      .email-container {
+        width: 100% !important;
+      }
+
+      .email-wrapper {
+        width: 100% !important;
+      }
+
+      .copyright-logo {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+      }
+    }
+  </style>
+</head>
+
+<body style="margin:0; padding:0; background-color:#f4f4f4; word-spacing:normal;" class="email-bg">
+
+  <!-- PREHEADER — keep under 90 characters -->
+  <div
+    style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#f4f4f4;">
+    Your card is now set up with Click to Pay — faster, easier checkout awaits.
+    &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;
+  </div>
+
+  <!-- OUTER WRAPPER -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="email-bg"
+    style="background-color:#f4f4f4;">
+    <tr>
+      <td align="center" style="padding:20px 0;">
+
+        <!-- EMAIL CONTAINER — 768px -->
+        <table role="presentation" class="email-container email-wrapper" width="768" cellpadding="0" cellspacing="0"
+          border="0" style="max-width:768px; width:100%; background-color:#ffffff;">
+
+          <!-- ===== HEADER: VISA LOGO ===== -->
+          <tr>
+            <td class="email-header"
+              style="padding:20px 32px; background-color:#ffffff;">
+              <!-- Light mode logo -->
+              <img class="light-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDc1IDI0IiBmaWxsPSJub25lIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUzLjA4NDkgMTYuMDU5NkM1My4wOTkzIDEyLjM5NDEgNTAuMDYzOCAxMC44MDA3IDQ3LjYzNSA5LjUyNTc1QzQ2LjAwMzggOC42Njk1MiA0NC42NDYyIDcuOTU2ODkgNDQuNjY5NyA2Ljg1NjY1QzQ0LjY4NjkgNi4wMjQwOCA0NS40ODE3IDUuMTM2NDcgNDcuMjE1NiA0LjkxMjg0QzQ5LjI0NjIgNC43MTY1MiA1MS4yOTIxIDUuMDczMTUgNTMuMTM2NSA1Ljk0NDk1TDU0LjE5MjcgMS4wMzIxMUM1Mi4zOTczIDAuMzU3MzA2IDUwLjQ5NiAwLjAwNzgwNzQzIDQ4LjU3OCAwQzQyLjY2MDYgMCAzOC40NjY3IDMuMTU0ODIgMzguNDI4OSA3LjY3NTQ2QzM4LjM5MTEgMTEuMDA5MiA0MS40MTE3IDEyLjg4MDcgNDMuNjkyNyAxMy45OTJDNDYuMDMyMSAxNS4xMjczIDQ2LjgyIDE1Ljg1NjcgNDYuODA5NiAxNi44NzVDNDYuODA5NiAxOC40MzM1IDQ0Ljk0MTUgMTkuMTE4MSA0My4yMTc5IDE5LjE0NTZDNDAuMjkwNiAxOS4xOTIzIDM4LjU1NTYgMTguMzgyOCAzNy4xNzk5IDE3Ljc0MDlMMzcuMDQ5MyAxNy42OEwzNS45NTE4IDIyLjc2NDlDMzcuMzU1NSAyMy40MTE3IDM5Ljk0NjEgMjMuOTcyNSA0Mi42MzMgMjRDNDguOTM5MiAyNCA1My4wNjc3IDIwLjg4MyA1My4wODgzIDE2LjA1OTZINTMuMDg0OVpNMjguMjExIDAuNDIzMTY1TDE4LjQ4NTEgMjMuNjM1M0gxMi4xMzc2TDcuMzUyMDYgNS4xMTIzOUM3LjA1OTYzIDMuOTcwMTggNi44MDg0OSAzLjU1MzkgNS45MjQzMSAzLjA3MjI1QzQuNDcyNDggMi4yOTEyOCAyLjA5ODYyIDEuNTU1MDUgMCAxLjA5NzQ4TDAuMTQ0NDk1IDAuNDA5NDA0SDEwLjM1ODlDMTEuNzMzMyAwLjQxNTA0IDEyLjg5OTkgMS40MTgzNCAxMy4xMTEyIDIuNzc2MzhMMTUuNjM5OSAxNi4yMTFMMjEuOTA4MyAwLjQyMzE2NUgyOC4yMTFaTTc0LjMxMTkgMjMuNjI4NEg2OC43NTkyTDY4LjAzMzMgMjAuMTcwOUg2MC4zMzAzTDU5LjA3OCAyMy42MzUzSDUyLjc3NTJMNjEuNzc4NyAyLjEyNjE1QzYyLjIwNTMgMS4wOTE2MSA2My4yMTU4IDAuNDE4MzgyIDY0LjMzNDkgMC40MjMxNjVINjkuNDY0NUw3NC4zMTE5IDIzLjYyODRaTTYyLjA1NzMgMTUuNDEyOEw2NS4yMTkgNi42OTQ5NUw2Ny4wMzkgMTUuNDEyOEg2Mi4wNTczWk0zMS44MzAzIDIzLjYzNTNMMzYuODExOSAwLjQyMzE2NUgzMC43OTEzTDI1LjgyMzQgMjMuNjM1M0gzMS44MzAzWiIgZmlsbD0iIzE0MzRDQiIvPjwvc3ZnPg==" 
+              width="75" height="24" alt="Visa" style="display:block; border:0; width:75px; height:24px;">
+              <!-- Dark mode logo -->
+              <!--[if !mso]><!-->
+              <div >
+
+                <img class="dark-img"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDc1IDI0IiBmaWxsPSJub25lIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUzLjA4NDkgMTYuMDU5NkM1My4wOTkzIDEyLjM5NDEgNTAuMDYzOCAxMC44MDA3IDQ3LjYzNSA5LjUyNTc1QzQ2LjAwMzggOC42Njk1MiA0NC42NDYyIDcuOTU2ODkgNDQuNjY5NyA2Ljg1NjY1QzQ0LjY4NjkgNi4wMjQwOCA0NS40ODE3IDUuMTM2NDcgNDcuMjE1NiA0LjkxMjg0QzQ5LjI0NjIgNC43MTY1MiA1MS4yOTIxIDUuMDczMTUgNTMuMTM2NSA1Ljk0NDk1TDU0LjE5MjcgMS4wMzIxMUM1Mi4zOTczIDAuMzU3MzA2IDUwLjQ5NiAwLjAwNzgwNzQzIDQ4LjU3OCAwQzQyLjY2MDYgMCAzOC40NjY3IDMuMTU0ODIgMzguNDI4OSA3LjY3NTQ2QzM4LjM5MTEgMTEuMDA5MiA0MS40MTE3IDEyLjg4MDcgNDMuNjkyNyAxMy45OTJDNDYuMDMyMSAxNS4xMjczIDQ2LjgyIDE1Ljg1NjcgNDYuODA5NiAxNi44NzVDNDYuODA5NiAxOC40MzM1IDQ0Ljk0MTUgMTkuMTE4MSA0My4yMTc5IDE5LjE0NTZDNDAuMjkwNiAxOS4xOTIzIDM4LjU1NTYgMTguMzgyOCAzNy4xNzk5IDE3Ljc0MDlMMzcuMDQ5MyAxNy42OEwzNS45NTE4IDIyLjc2NDlDMzcuMzU1NSAyMy40MTE3IDM5Ljk0NjEgMjMuOTcyNSA0Mi42MzMgMjRDNDguOTM5MiAyNCA1My4wNjc3IDIwLjg4MyA1My4wODgzIDE2LjA1OTZINTMuMDg0OVpNMjguMjExIDAuNDIzMTY1TDE4LjQ4NTEgMjMuNjM1M0gxMi4xMzc2TDcuMzUyMDYgNS4xMTIzOUM3LjA1OTYzIDMuOTcwMTggNi44MDg0OSAzLjU1MzkgNS45MjQzMSAzLjA3MjI1QzQuNDcyNDggMi4yOTEyOCAyLjA5ODYyIDEuNTU1MDUgMCAxLjA5NzQ4TDAuMTQ0NDk1IDAuNDA5NDA0SDEwLjM1ODlDMTEuNzMzMyAwLjQxNTA0IDEyLjg5OTkgMS40MTgzNCAxMy4xMTEyIDIuNzc2MzhMMTUuNjM5OSAxNi4yMTFMMjEuOTA4MyAwLjQyMzE2NUgyOC4yMTFaTTc0LjMxMTkgMjMuNjI4NEg2OC43NTkyTDY4LjAzMzMgMjAuMTcwOUg2MC4zMzAzTDU5LjA3OCAyMy42MzUzSDUyLjc3NTJMNjEuNzc4NyAyLjEyNjE1QzYyLjIwNTMgMS4wOTE2MSA2My4yMTU4IDAuNDE4MzgyIDY0LjMzNDkgMC40MjMxNjVINjkuNDY0NUw3NC4zMTE5IDIzLjYyODRaTTYyLjA1NzMgMTUuNDEyOEw2NS4yMTkgNi42OTQ5NUw2Ny4wMzkgMTUuNDEyOEg2Mi4wNTczWk0zMS44MzAzIDIzLjYzNTNMMzYuODExOSAwLjQyMzE2NUgzMC43OTEzTDI1LjgyMzQgMjMuNjM1M0gzMS44MzAzWiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" 
+                    width="75" height="24" alt="Visa" style="display:none; border:0; width:75px; height:24px;">
+              </div>
+              <!--<![endif]-->
+            </td>
+          </tr>
+
+          <!-- ===== HERO SECTION ===== -->
+          <tr>
+            <td class="email-hero hero-section" style="background-color:#1434CB; padding:24px 32px;">
+              <h1 class="font-color-heading" style="margin:0 0 12px 0; font-family:Tahoma; letter-spacing: 0.5px;
+                   font-size:36px; font-weight:400;
+                   line-height:44px; mso-line-height-rule:exactly;">
+                Welcome to<br>Click to Pay
+              </h1>
+              <p class="eyebrow-text" style="margin:0; font-family:Tahoma;
+                  font-size:18px; font-weight:400; color:#C7EDFF;
+                  line-height:26px; mso-line-height-rule:exactly;">
+                Your card on-demand
+              </p>
+            </td>
+          </tr>
+
+          <!-- ===== INTRO BAND ===== -->
+          <tr>
+            <td class="email-accent intro-section" style="background-color:#C7EDFF; padding:24px 32px;">
+              <p class="accent-text" style="margin:0; font-family:Verdana;
+                  font-size:16px; color:#1434CB; font-weight:400;
+                  line-height:24px; mso-line-height-rule:exactly;">
+                Thank you for setting up your card. You're now ready for faster, easier checkout with Click to Pay —
+                your card on-demand, whenever you need it.
+              </p>
+            </td>
+          </tr>
+
+          <!-- ===== PORTAL LINK ===== -->
+          <tr>
+            <td class="email-body" style="padding:24px 32px 16px; background-color:#ffffff;">
+              <p style="margin:0; font-family:Verdana;
+                  font-size:16px; color:#333333;
+                  line-height:24px; mso-line-height-rule:exactly;">
+                You can manage your cards through the
+                <a href="https://www.visa.com/clicktopay" class="link"
+                  style="color:#1434CB; text-decoration:underline; font-weight:400; font-size: 16px;">Visa Click to Pay
+                  consumer
+                  portal</a>.
+              </p>
+            </td>
+          </tr>
+
+          <!-- ===== HOW IT WORKS ===== -->
+          <tr>
+            <td class="email-body content-section" style="padding:24px 32px 8px; background-color:#ffffff;">
+              <h2 style="margin:0 0 20px 0; font-family:Verdana;
+                   font-size:24px; font-weight:700; color:#1434CB;
+                   line-height:28px; mso-line-height-rule:exactly;">How it works</h2>
+
+              <!-- Item 1 -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                style="margin-bottom:16px;">
+                <tr>
+                  <td class="icon-cell" valign="top"
+                    style="width:44px; padding-right:16px; padding-top:2px; position: relative;">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgb3BhY2l0eT0iMC4wMSI+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEgMTQpIiBmaWxsPSIjMTQzNENCIi8+CjwvZz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMi4xNDE2IDEuOTg3NDRDMTQuODU0NSAtMC42NjIzNDYgMTkuMjUzMSAtMC42NjI2MTMgMjEuOTY1OCAxLjk4NzQ0QzI0LjY3ODYgNC42Mzc1NyAyNC42Nzg1IDguOTM0OTIgMjEuOTY1OCAxMS41ODUxTDE4LjQ1NyAxNS4wMTI4QzE1Ljc0NDMgMTcuNjYyOSAxMS4zNDU3IDE3LjY2MjcgOC42MzI4MSAxNS4wMTI4QzcuODc5NDYgMTQuMjc2OSA3LjMzNDk1IDEzLjQxMzYgNyAxMi40OTQzTDguNjMxODQgMTAuODk5NUM4Ljc3Nzc4IDExLjkwMjcgOS4yNDYyNiAxMi44NzAxIDEwLjAzNjEgMTMuNjQxN0MxMS45NzM5IDE1LjUzNDUgMTUuMTE2IDE1LjUzNDYgMTcuMDUzNyAxMy42NDE3TDIwLjU2MTUgMTAuMjE0QzIyLjQ5OTMgOC4zMjEwMSAyMi40OTkzIDUuMjUxNTIgMjAuNTYxNSAzLjM1ODUzQzE4LjYyMzggMS40NjU5NSAxNS40ODI2IDEuNDY1OTQgMTMuNTQ0OSAzLjM1ODUzTDExLjc4MTIgNS4wMDAxM0g5LjEyNUwxMi4xNDE2IDEuOTg3NDRaIiBmaWxsPSIjMTQzNENCIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNS41NDM2OSA4Ljk4ODEzQzguMjU2NTggNi4zMzc5NCAxMi42NTUgNi4zMzc5NCAxNS4zNjc5IDguOTg4MTNDMTYuMTIxIDkuNzIzOTEgMTYuNjY0OCAxMC41ODY2IDE2Ljk5OTcgMTEuNTA1N0wxNS4zNjc5IDEzLjEwMDRDMTUuMjIyIDEyLjA5NzMgMTQuNzU0NSAxMS4xMjk5IDEzLjk2NDYgMTAuMzU4MkMxMi4wMjY5IDguNDY1MzUgOC44ODQ4MSA4LjQ2NTUzIDYuOTQ3MDEgMTAuMzU4MkwzLjQzODIzIDEzLjc4NkMxLjUwMDQ1IDE1LjY3OSAxLjUwMDQ1IDE4Ljc0ODUgMy40MzgyMyAyMC42NDE0QzUuMzc2IDIyLjUzNDQgOC41MTgwNSAyMi41MzQ0IDEwLjQ1NTggMjAuNjQxNEwxMi4yMTg1IDE4Ljk5OThIMTQuODc0N0wxMS44NTkxIDIyLjAxMjVDOS4xNDYyOSAyNC42NjI3IDQuNzQ3OCAyNC42NjI2IDIuMDM0OSAyMi4wMTI1Qy0wLjY3Nzk3NiAxOS4zNjI0IC0wLjY3Nzk3NyAxNS4wNjUxIDIuMDM0OSAxMi40MTQ5TDUuNTQzNjkgOC45ODgxM1oiIGZpbGw9IiMxNDM0Q0IiLz4KPC9zdmc+Cg=="
+                      width="24"
+                      height="24"
+                      class="light-img"
+                      alt="Click to Pay / link icon"
+                      style="display:block; width:24px; height:24px; border:0;">
+                    <!--[if !mso]><!-->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyNCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgb3BhY2l0eT0iMC4wMSI+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEgMTgpIiBmaWxsPSIjQkRFQUZGIi8+CjwvZz4KPHBhdGggZD0iTTEyLjE0MTYgNS45ODc0NEMxNC44NTQ1IDMuMzM3NjUgMTkuMjUzMSAzLjMzNzM5IDIxLjk2NTggNS45ODc0NEMyNC42Nzg2IDguNjM3NTcgMjQuNjc4NSAxMi45MzQ5IDIxLjk2NTggMTUuNTg1MUwxOC40NTcgMTkuMDEyOEMxNS43NDQzIDIxLjY2MjkgMTEuMzQ1NyAyMS42NjI3IDguNjMyODEgMTkuMDEyOEM3Ljg3OTQ2IDE4LjI3NjkgNy4zMzQ5NSAxNy40MTM2IDcgMTYuNDk0M0w4LjYzMTg0IDE0Ljg5OTVDOC43Nzc3OCAxNS45MDI3IDkuMjQ2MjYgMTYuODcwMSAxMC4wMzYxIDE3LjY0MTdDMTEuOTczOSAxOS41MzQ1IDE1LjExNiAxOS41MzQ2IDE3LjA1MzcgMTcuNjQxN0wyMC41NjE1IDE0LjIxNEMyMi40OTkzIDEyLjMyMSAyMi40OTkzIDkuMjUxNTIgMjAuNTYxNSA3LjM1ODUzQzE4LjYyMzggNS40NjU5NSAxNS40ODI2IDUuNDY1OTQgMTMuNTQ0OSA3LjM1ODUzTDExLjc4MTIgOS4wMDAxM0g5LjEyNUwxMi4xNDE2IDUuOTg3NDRaIiBmaWxsPSIjQkRFQUZGIi8+CjxwYXRoIGQ9Ik01LjU0MzQ1IDEyLjk4ODFDOC4yNTYzMyAxMC4zMzc5IDEyLjY1NDggMTAuMzM3OSAxNS4zNjc3IDEyLjk4ODFDMTYuMTIwNyAxMy43MjM5IDE2LjY2NDYgMTQuNTg2NiAxNi45OTk1IDE1LjUwNTdMMTUuMzY3NyAxNy4xMDA0QzE1LjIyMTcgMTYuMDk3MyAxNC43NTQyIDE1LjEyOTkgMTMuOTY0MyAxNC4zNTgyQzEyLjAyNjcgMTIuNDY1MyA4Ljg4NDU3IDEyLjQ2NTUgNi45NDY3NyAxNC4zNTgyTDMuNDM3OTggMTcuNzg2QzEuNTAwMjEgMTkuNjc5IDEuNTAwMjEgMjIuNzQ4NSAzLjQzNzk4IDI0LjY0MTRDNS4zNzU3NiAyNi41MzQ0IDguNTE3OCAyNi41MzQ0IDEwLjQ1NTYgMjQuNjQxNEwxMi4yMTgzIDIyLjk5OThIMTQuODc0NUwxMS44NTg5IDI2LjAxMjVDOS4xNDYwNSAyOC42NjI3IDQuNzQ3NTUgMjguNjYyNiAyLjAzNDY2IDI2LjAxMjVDLTAuNjc4MjIgMjMuMzYyNCAtMC42NzgyMjEgMTkuMDY1MSAyLjAzNDY2IDE2LjQxNDlMNS41NDM0NSAxMi45ODgxWiIgZmlsbD0iI0JERUFGRiIvPgo8L3N2Zz4K"
+                        width="24"
+                        height="28"
+                        class="dark-img"
+                        alt="Click to Pay icon"
+                        style="display:none; width:24px; height:28px; border:0;">
+                    <!--<![endif]-->
+
+                  </td>
+                  <td valign="top">
+                    <p style="margin:0; font-family:Verdana;
+                        font-size:16px; color:#333333;
+                        line-height:24px; mso-line-height-rule:exactly;">
+                      Your email or mobile number are linked to your card
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Item 2 -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                style="margin-bottom:16px;">
+                <tr>
+                  <td class="icon-cell" valign="top"
+                    style="width:44px; padding-right:16px; padding-top:2px; position: relative;">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzEwOTlfMjI0MDcpIj4KPGcgb3BhY2l0eT0iMC4wMSI+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMgOSkiIGZpbGw9IiMxNDM0Q0IiLz4KPC9nPgo8cGF0aCBkPSJNMTggMTJIMTZWMTBIMThWMTJaTTIyIDEySDIwVjEwSDIyVjEyWk0xNi43MjA3IDBMMTcuMzg3NyAySDI0VjQuMzAyNzNMMjEuNTM1MiA4SDE2VjQuMTYxMTNMMTUuMjc5MyAySDEzVjBIMTYuNzIwN1pNMTggNFY2SDIwLjQ2NDhMMjEuNzk3OSA0SDE4WiIgZmlsbD0iIzE0MzRDQiIvPgo8cGF0aCBkPSJNMjQgMjBWMjJIMFYyMEgyNFpNMTQgNFY2SDRWMTZIMjBWMTRIMjJWMThIMlY2QzIgNC44OTY5NyAyLjg5Njk3IDQgNCA0SDE0WiIgZmlsbD0iIzE0MzRDQiIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzEwOTlfMjI0MDciPgo8cmVjdCB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg=="
+                      width="24"
+                      height="24"
+                      class="light-img"
+                      alt="Monitor / screen icon"
+                      style="display:block; width:24px; height:24px; border:0;">
+                    <!--[if !mso]><!-->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyNCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzExODFfMTk0NjIpIj4KPGcgb3BhY2l0eT0iMC4wMSI+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMgMTMpIiBmaWxsPSIjQkRFQUZGIi8+CjwvZz4KPHBhdGggZD0iTTE4IDE2SDE2VjE0SDE4VjE2Wk0yMiAxNkgyMFYxNEgyMlYxNlpNMTYuNzIwNyA0TDE3LjM4NzcgNkgyNFY4LjMwMjczTDIxLjUzNTIgMTJIMTZWOC4xNjExM0wxNS4yNzkzIDZIMTNWNEgxNi43MjA3Wk0xOCA4VjEwSDIwLjQ2NDhMMjEuNzk3OSA4SDE4WiIgZmlsbD0iI0JERUFGRiIvPgo8cGF0aCBkPSJNMjQgMjRWMjZIMFYyNEgyNFpNMTQgOFYxMEg0VjIwSDIwVjE4SDIyVjIySDJWMTBDMiA4Ljg5Njk3IDIuODk2OTcgOCA0IDhIMTRaIiBmaWxsPSIjQkRFQUZGIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMTE4MV8xOTQ2MiI+CjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0id2hpdGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNCkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K"
+                        width="24"
+                        height="28"
+                        class="dark-img"
+                        alt="Monitor icon"
+                        style="display:none; width:24px; height:28px; border:0;">
+                    <!--<![endif]-->
+                  </td>
+                  <td valign="top">
+                    <p style="margin:0; font-family:Verdana;
+                        font-size:16px; color:#333333;
+                        line-height:24px; mso-line-height-rule:exactly;">
+                      When you enter your email or mobile number at checkout, Click to Pay finds your linked cards
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Item 3 -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                style="margin-bottom:16px;">
+                <tr>
+                  <td class="icon-cell" valign="top"
+                    style="width:44px; padding-right:16px; padding-top:2px; position: relative;">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzEwOTlfMjI0MTMpIj4KPGcgb3BhY2l0eT0iMC4wMSI+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkgOSkiIGZpbGw9IiMxNDM0Q0IiLz4KPC9nPgo8cGF0aCBkPSJNMiA5VjExSDBWOUgyWk0xNiAxMUg4VjlIMTZWMTFaTTI0IDExSDIyVjlIMjRWMTFaIiBmaWxsPSIjMTQzNENCIi8+CjxwYXRoIGQ9Ik0yIDIySDRWMjRIMFYyMEgyVjIyWk0yNCAyNEgyMFYyMkgyMlYyMEgyNFYyNFpNMTIuMjEwOSAyQzE2LjczNjkgMi4wMDAxOCAyMC40MjA5IDUuNTExMzcgMjAuNDIwOSA5LjgyNDIyVjExLjQ4NjNMMjEuNjUyMyAxMy4yNTY4QzIxLjk4MDcgMTMuNzI2MiAyMi4wODM2IDE0LjMwMyAyMS45Mjk3IDE0Ljg0MDhDMjEuNzc1NyAxNS4zNzg3IDIxLjM4NTcgMTUuODM4NSAyMC44NjIzIDE2LjA5MjhMMjAuMjI2NiAxNi4zOTY1TDE5LjU2OTMgMTguMjczNEMxOS4yOTIyIDE5LjA3NTQgMTguNTAxOCAxOS42MTMzIDE3LjYxOTEgMTkuNjEzM0gxNi4zMTU0QzE1LjQxMjggMTkuNjEzMyAxNS40MTI3IDE5LjYxMzggMTUuMTc2OCAyMC4wNTM3TDE0LjE1MDQgMjJMMTIuMzEzNSAyMS4xMjk5TDEzLjMzOTggMTkuMTczOEMxNC4xNDAzIDE3LjY0ODQgMTUuMjQ4MiAxNy42NDc1IDE2LjMxNTQgMTcuNjQ3NUgxNy42Mjk5TDE4LjU1MzcgMTQuOTk3MUwxOS45NDkyIDE0LjMzMkwxOC4zNjgyIDEyLjA3MzJWOS44MjQyMkMxOC4zNjgyIDYuNTg3MTcgMTUuNjA3OSAzLjk1NjI0IDEyLjIxMDkgMy45NTYwNUM4Ljg3NTM5IDMuOTU2MDUgNi4wNTI3MyA2LjY0NTczIDYuMDUyNzMgOS44MjQyMkM2LjA1Mjc5IDExLjA3NTkgNi40OTQyMSAxMS43NTA5IDYuOTk3MDcgMTIuNTMzMkM3LjUyMDQ2IDEzLjMzNTEgOC4xMDU0NyAxNC4yNDUxIDguMTA1NDcgMTUuNjkyNEM4LjEwNTMzIDE2LjkwNDkgNy41MzAyMyAxOC4wMDA1IDYuOTY1ODIgMTkuMDY2NEw1LjEyODkxIDE4LjE5NTNDNS42MTExNCAxNy4yODYgNi4wNTI1NiAxNi40MzU1IDYuMDUyNzMgMTUuNjkyNEM2LjA1MjczIDE0LjgwMjQgNS43MTM4IDE0LjI4MzMgNS4yNTE5NSAxMy41NTk2QzQuNjg3NTQgMTIuNzA4OCA0LjAwMDA3IDExLjYzMzEgNCA5LjgyNDIyQzQgNS41Nzk3MiA3Ljc1NjY5IDIgMTIuMjEwOSAyWk00IDJIMlY0SDBWMEg0VjJaTTI0IDRIMjJWMkgyMFYwSDI0VjRaIiBmaWxsPSIjMTQzNENCIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMTA5OV8yMjQxMyI+CjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K"
+                      width="24"
+                      height="24"
+                      class="light-img"
+                      alt="Idea / bulb icon"
+                      style="display:block; width:24px; height:24px; border:0;">
+                  <!--[if !mso]><!-->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyNCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzExODFfMTk0NjIpIj4KPGcgb3BhY2l0eT0iMC4wMSI+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMgMTMpIiBmaWxsPSIjQkRFQUZGIi8+CjwvZz4KPHBhdGggZD0iTTE4IDE2SDE2VjE0SDE4VjE2Wk0yMiAxNkgyMFYxNEgyMlYxNlpNMTYuNzIwNyA0TDE3LjM4NzcgNkgyNFY4LjMwMjczTDIxLjUzNTIgMTJIMTZWOC4xNjExM0wxNS4yNzkzIDZIMTNWNEgxNi43MjA3Wk0xOCA4VjEwSDIwLjQ2NDhMMjEuNzk3OSA4SDE4WiIgZmlsbD0iI0JERUFGRiIvPgo8cGF0aCBkPSJNMjQgMjRWMjZIMFYyNEgyNFpNMTQgOFYxMEg0VjIwSDIwVjE4SDIyVjIySDJWMTBDMiA4Ljg5Njk3IDIuODk2OTcgOCA0IDhIMTRaIiBmaWxsPSIjQkRFQUZGIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMTE4MV8xOTQ2MiI+CjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0id2hpdGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNCkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K"
+                        width="24"
+                        height="28"
+                        class="dark-img"
+                        alt="Monitor icon"
+                        style="display:none; width:24px; height:28px; border:0;">
+                    <!--<![endif]-->
+                  </td>
+                  <td valign="top">
+                    <p style="margin:0; font-family:Verdana;
+                        font-size:16px; color:#333333;
+                        line-height:24px; mso-line-height-rule:exactly;">
+                      You verify it's you (for example, with biometrics or a one-time passcode)
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Item 4 -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                style="margin-bottom:8px;">
+                <tr>
+                  <td class="icon-cell" valign="top"
+                    style="width:44px; padding-right:16px; padding-top:2px; position: relative;">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzEwOTlfMjI0MTkpIj4KPGcgb3BhY2l0eT0iMC4wMSI+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUgNSkiIGZpbGw9IiMxNDM0Q0IiLz4KPC9nPgo8cGF0aCBkPSJNMTYgMTNWMTVINFYxM0gxNlpNMjEgMEMyMi42NTQyIDAgMjMuOTk5OSAxLjM2MjMzIDI0IDMuMDM3MTFWMTIuMTQ5NEMyMy45OTk5IDEzLjQ2NzUgMjMuMTYxNSAxNC41ODA3IDIyIDE1VjMuMDM3MTFDMjEuOTk5OSAyLjQ3OTA4IDIxLjU1MTcgMi4wMjQ0MSAyMSAyLjAyNDQxSDdDNi40NDg4IDIuMDI0NDEgNi4wMDAxMSAyLjQ3OTA4IDYgMy4wMzcxMVY3LjA4NjkxSDRWMy4wMzcxMUM0LjAwMDExIDEuMzYyMzMgNS4zNDU3NyAwIDcgMEgyMVoiIGZpbGw9IiMxNDM0Q0IiLz4KPHBhdGggZD0iTTE3IDlDMTguNjU0MyA5IDIwIDEwLjM0NTcgMjAgMTJWMjFDMjAgMjIuNjU0MyAxOC42NTQzIDI0IDE3IDI0SDNDMS4zNDU3IDI0IDAgMjIuNjU0MyAwIDIxVjEyQzAgMTAuMzQ1NyAxLjM0NTcgOSAzIDlIMTdaTTMgMTFDMi40NDg3MyAxMSAyIDExLjQ0ODcgMiAxMlYyMUMyIDIxLjU1MTggMi40NDg3MyAyMiAzIDIySDE3QzE3LjU1MTggMjIgMTggMjEuNTUxOCAxOCAyMVYxMkMxOCAxMS40NDg3IDE3LjU1MTggMTEgMTcgMTFIM1oiIGZpbGw9IiMxNDM0Q0IiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMDk5XzIyNDE5Ij4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo="
+                        width="24"
+                        height="24"
+                        class="light-img"
+                        alt="Copy / clipboard icon"
+                        style="display:block; width:24px; height:24px; border:0;">
+                    <!--[if !mso]><!-->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzExODFfMTk0NzUpIj4KPGcgb3BhY2l0eT0iMC4wMSI+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUgNSkiIGZpbGw9IiNCREVBRkYiLz4KPC9nPgo8cGF0aCBkPSJNMTYgMTNWMTVINFYxM0gxNlpNMjEgMEMyMi42NTQyIDAgMjMuOTk5OSAxLjM2MjMzIDI0IDMuMDM3MTFWMTIuMTQ5NEMyMy45OTk5IDEzLjQ2NzUgMjMuMTYxNSAxNC41ODA3IDIyIDE1VjMuMDM3MTFDMjEuOTk5OSAyLjQ3OTA4IDIxLjU1MTcgMi4wMjQ0MSAyMSAyLjAyNDQxSDdDNi40NDg4IDIuMDI0NDEgNi4wMDAxMSAyLjQ3OTA4IDYgMy4wMzcxMVY3LjA4NjkxSDRWMy4wMzcxMUM0LjAwMDExIDEuMzYyMzMgNS4zNDU3NyAwIDcgMEgyMVoiIGZpbGw9IiNCREVBRkYiLz4KPHBhdGggZD0iTTE3IDlDMTguNjU0MyA5IDIwIDEwLjM0NTcgMjAgMTJWMjFDMjAgMjIuNjU0MyAxOC42NTQzIDI0IDE3IDI0SDNDMS4zNDU3IDI0IDAgMjIuNjU0MyAwIDIxVjEyQzAgMTAuMzQ1NyAxLjM0NTcgOSAzIDlIMTdaTTMgMTFDMi40NDg3MyAxMSAyIDExLjQ0ODcgMiAxMlYyMUMyIDIxLjU1MTggMi40NDg3MyAyMiAzIDIySDE3QzE3LjU1MTggMjIgMTggMjEuNTUxOCAxOCAyMVYxMkMxOCAxMS40NDg3IDE3LjU1MTggMTEgMTcgMTFIM1oiIGZpbGw9IiNCREVBRkYiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMTgxXzE5NDc1Ij4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo="
+                        width="24"
+                        height="24"
+                        class="dark-img"
+                        alt="Copy / clipboard icon"
+                        style="display:none; width:24px; height:24px; border:0;">
+                    <!--<![endif]-->
+                  </td>
+                  <td valign="top">
+                    <p style="margin:0; font-family:Verdana;
+                        font-size:16px; color:#333333;
+                        line-height:24px; mso-line-height-rule:exactly;">
+                      Your cards are securely loaded and ready to use
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- ===== FAQ SECTION ===== -->
+          <tr>
+            <td class="email-body faq-section" style="padding:28px 32px 16px; background-color:#ffffff;">
+              <h2 style="margin:0 0 20px 0; font-family:Verdana;
+                   font-size:22px; font-weight:700; color:#1434CB;
+                   line-height:29px; mso-line-height-rule:exactly;">Frequently asked questions</h2>
+
+              <!-- FAQ 1 -->
+              <h3 class="faq-question" style="margin:0 0 8px 0; font-family:Verdana;
+                   font-size:18px; font-weight:700;
+                   line-height:23px; mso-line-height-rule:exactly;">Who has my card information?</h3>
+              <p style="margin:0 0 20px 0; font-family:Verdana;
+                  font-size:16px; color:#333333;
+                  line-height:24px; mso-line-height-rule:exactly;">
+                Visa securely stores your encrypted Visa card details. Your physical card's details are never shared
+                with anyone, including the merchant.
+              </p>
+
+              <!-- FAQ 2 -->
+              <h3 class="faq-question" style="margin:0 0 8px 0; font-family:Verdana;
+                   font-size:18px; font-weight:700;
+                   line-height:23px; mso-line-height-rule:exactly;">Where can I use it?</h3>
+              <p style="margin:0 0 8px 0; font-family:Verdana;
+                  font-size:16px; color:#333333;
+                  line-height:24px; mso-line-height-rule:exactly;">
+                You can use Click to Pay at participating online retailers wherever it's available at checkout. Many
+                merchants will also show the Click to Pay icon
+                <img class="light-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI2IDE2IiBmaWxsPSJub25lIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4Ljc2NzQgMC4yNUMxOS4wODkyIC0wLjA1OTk3MzUgMTkuNTk5NiAtMC4wNTc2OTg2IDE5LjkxODcgMC4yNTUxMzJMMjUuNzAwOCA3LjI3NzQ0QzI2LjEwNDEgNy42NzI4MiAyNi4xMDAxIDguMzIzMDQgMjUuNjkxOSA4LjcxMzQyTDIwLjAxOTkgMTUuNzkxN0MxOS44ODAyIDE1LjkyNTQgMTkuNjk0MiAxNiAxOS41MDA3IDE2TDE0LjczODIgMTZDMTQuMDY3IDE2IDEzLjczMyAxNS4xODczIDE0LjIxMDggMTQuNzE2MkwyMC4wMjI2IDhMMTQuNzM4MiAxLjVIMTIuNjE4NEwxNy42NzIzIDcuMjc3NzVDMTguMDg0NyA3LjY3MTMzIDE4LjA4NSA4LjMyOTA0IDE3LjY3MzEgOC43MjMwN0wxMS4wMzI3IDE1Ljc5MTdDMTAuODkyOSAxNS45MjU0IDEwLjcwNjkgMTYgMTAuNTEzNCAxNkgyLjk5OTkyQzEuMzQzNDggMTYgMC4wMDA0OTAxNjQgMTQuNjU3NSAwLjAwMDIzNTYzOSAxMy4wMDExQy0wLjAwMDI3NjYxNiA5LjY2NzMzIDAuMDAwMTU5MjU5IDYuMzMzNiAwLjAwMDQ3ODgxNCAyLjk5OTg2QzAuMDAwNjM3NjI3IDEuMzQzMDYgMS4zNDM3NyAwIDMuMDAwNTcgMEg1Ljk4NDg3QzYuMzk5NTQgMCA2LjczNTcgMC4zMzU3ODYgNi43MzU3IDAuNzVDNi43MzU3IDEuMTY0MjEgNi4zOTk1NCAxLjUgNS45ODQ4NyAxLjVIMy41MDIzMUMyLjM5Nzc0IDEuNSAxLjUwMjMxIDIuMzk1NDMgMS41MDIzMSAzLjVDMS41MDIzMSA2LjUgMS41MDIzMSA5LjUgMS41MDIzMSAxMi41QzEuNTAyMzEgMTMuNjA0NiAyLjM5Nzc0IDE0LjUgMy41MDIzMSAxNC41SDkuOTU3NzhMMTYuMDE4MiA4TDEwLjIwNjQgMS4yODM3OEM5LjcyODY1IDAuODEyNzM0IDEwLjA2MjYgMCAxMC43MzM4IDBIMTUuMzc1N0MxNS41NjkyIDAgMTUuNzU1MiAwLjA3NDYxNTggMTUuODk0OSAwLjIwODI4N0wyMS42Nzc0IDcuMjc2OTNDMjIuMDg5NCA3LjY3MDk2IDIyLjA4OSA4LjMyODY3IDIxLjY3NjYgOC43MjIyNUwxNi42MjI3IDE0LjVIMTguODc1N0wyNC4wMjcgOEwxOC43Njc0IDEuNUMxOC40Mzc4IDEuMTc0MjkgMTguNDMzNiAwLjU3MTQ0MSAxOC43Njc0IDAuMjVaIiBmaWxsPSJibGFjayIvPjwvc3ZnPg==" width="26" height="16" alt="Click to Pay" style="display:inline-block; vertical-align:middle; border:0; width:26px; height:16px;">,
+                 <!--[if !mso]><!-->
+                   <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI2IDE2IiBmaWxsPSJub25lIj4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4Ljc2NzQgMC4yNUMxOS4wODkyIC0wLjA1OTk3MzUgMTkuNTk5NiAtMC4wNTc2OTg2IDE5LjkxODcgMC4yNTUxMzJMMjUuNzAwOCA3LjI3NzQ0QzI2LjEwNDEgNy42NzI4MiAyNi4xMDAxIDguMzIzMDQgMjUuNjkxOSA4LjcxMzQyTDIwLjAxOTkgMTUuNzkxN0MxOS44ODAyIDE1LjkyNTQgMTkuNjk0MiAxNiAxOS41MDA3IDE2TDE0LjczODIgMTZDMTQuMDY3IDE2IDEzLjczMyAxNS4xODczIDE0LjIxMDggMTQuNzE2MkwyMC4wMjI2IDhMMTQuNzM4MiAxLjVIMTIuNjE4NEwxNy42NzIzIDcuMjc3NzVDMTguMDg0NyA3LjY3MTMzIDE4LjA4NSA4LjMyOTA0IDE3LjY3MzEgOC43MjMwN0wxMS4wMzI3IDE1Ljc5MTdDMTAuODkyOSAxNS45MjU0IDEwLjcwNjkgMTYgMTAuNTEzNCAxNkgyLjk5OTkyQzEuMzQzNDggMTYgMC4wMDA0OTAxNjQgMTQuNjU3NSAwLjAwMDIzNTYzOSAxMy4wMDExQy0wLjAwMDI3NjYxNiA5LjY2NzMzIDAuMDAwMTU5MjU5IDYuMzMzNiAwLjAwMDQ3ODgxNCAyLjk5OTg2QzAuMDAwNjM3NjI3IDEuMzQzMDYgMS4zNDM3NyAwIDMuMDAwNTcgMEg1Ljk4NDg3QzYuMzk5NTQgMCA2LjczNTcgMC4zMzU3ODYgNi43MzU3IDAuNzVDNi43MzU3IDEuMTY0MjEgNi4zOTk1NCAxLjUgNS45ODQ4NyAxLjVIMy41MDIzMUMyLjM5Nzc0IDEuNSAxLjUwMjMxIDIuMzk1NDMgMS41MDIzMSAzLjVDMS41MDIzMSA2LjUgMS41MDIzMSA5LjUgMS41MDIzMSAxMi41QzEuNTAyMzEgMTMuNjA0NiAyLjM5Nzc0IDE0LjUgMy41MDIzMSAxNC41SDkuOTU3NzhMMTYuMDE4MiA4TDEwLjIwNjQgMS4yODM3OEM5LjcyODY1IDAuODEyNzM0IDEwLjA2MjYgMCAxMC43MzM4IDBIMTUuMzc1N0MxNS41NjkyIDAgMTUuNzU1MiAwLjA3NDYxNTggMTUuODk0OSAwLjIwODI4N0wyMS42Nzc0IDcuMjc2OTNDMjIuMDg5NCA3LjY3MDk2IDIyLjA4OSA4LjMyODY3IDIxLjY3NjYgOC43MjIyNUwxNi42MjI3IDE0LjVIMTguODc1N0wyNC4wMjcgOEwxOC43Njc0IDEuNUMxOC40Mzc4IDEuMTc0MjkgMTguNDMzNiAwLjU3MTQ0MSAxOC43Njc0IDAuMjVaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"
+                    width="26"
+                    height="16"
+                    alt="Click to Pay"
+                    class="dark-img"
+                    style="display:none; width:26px; height:16px; border:0;">
+                    <!--<![endif]-->
+                though it may not appear everywhere.
+              </p>
+            </td>
+          </tr>
+
+          <!-- ===== DIVIDER ===== -->
+          <!-- <tr>
+            <td style="padding:28px 32px 0;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td style="border-top:1px solid #e5e7eb; font-size:0; line-height:0;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr> -->
+
+          <!-- ===== FOOTER ===== -->
+          <tr>
+            <td class="email-footer footer-section" style="padding:24px 32px 32px; background-color:#f5f5f5;">
+
+              <p class="muted-text" style="margin:0 0 12px 0; font-family:Verdana;
+                  font-size:11px; color:#4A4A4A;
+                  line-height:18px; mso-line-height-rule:exactly;">
+                This is a service email from Visa. Please note that you may receive service emails
+                in accordance with Visa's
+                <a href="https://www.visa.com/legal/visa-rules-public.pdf" class="footer-link"
+                  style="color:#1434CB; text-decoration:underline;">Terms of Service</a> and
+                <a href="https://www.visa.com/privacy" class="footer-link"
+                  style="color:#1434CB; text-decoration:underline;">Privacy Notice</a>,
+                whether or not you elect to receive promotional email.
+              </p>
+
+              <p class="muted-text" style="margin:0 0 12px 0; font-family:Verdana;
+                  font-size:11px; color:#4A4A4A;
+                  line-height:18px; mso-line-height-rule:exactly;">
+                This email was sent from an address that cannot accept incoming messages.
+                If you think you received this email in error, please disregard it or let us know at
+                <a href="mailto:checkoutwithvisa@visa.com" class="footer-link"
+                  style="color:#1434CB; text-decoration:underline;">checkoutwithvisa@visa.com</a>.
+              </p>
+
+              <p class="muted-text" style="margin:0 0 12px 0; font-family:Verdana;
+                  font-size:11px; color:#4A4A4A;
+                  line-height:18px; mso-line-height-rule:exactly;">
+                Click to Pay icon
+                <img class="light-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwIDAgMTMgOCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjM4MzQ0IDAuMTI1QzkuNTQ0MzggLTAuMDI5OTg2OCA5Ljc5OTU3IC0wLjAyODg0OTMgOS45NTkxMSAwLjEyNzU2NkwxMi44NTAxIDMuNjM4NzJDMTMuMDUxNyAzLjgzNjQxIDEzLjA0OTcgNC4xNjE1MiAxMi44NDU2IDQuMzU2NzFMMTAuMDA5NyA3Ljg5NTg2QzkuOTM5ODMgNy45NjI2OSA5Ljg0NjgyIDggOS43NTAwOCA4TDcuMzY4OTIgOEM3LjAzMzMgOCA2Ljg2NjM0IDcuNTkzNjMgNy4xMDUyMSA3LjM1ODExTDEwLjAxMSA0TDcuMzY4OTIgMC43NUg2LjMwOTAxTDguODM1OTEgMy42Mzg4OEM5LjA0MjEgMy44MzU2NyA5LjA0MjI4IDQuMTY0NTIgOC44MzYzIDQuMzYxNTRMNS41MTYyMSA3Ljg5NTg2QzUuNDQ2MzMgNy45NjI2OSA1LjM1MzMyIDggNS4yNTY1OCA4SDEuNDk5OTJDMC42NzE3MjQgOCAwLjAwMDI0NTA3NiA3LjMyODc1IDAuMDAwMTE3ODE2IDYuNTAwNTNDLTAuMDAwMTM4MzA1IDQuODMzNjYgNy45NjI3NGUtMDUgMy4xNjY4IDAuMDAwMjM5NDAxIDEuNDk5OTNDMC4wMDAzMTg4MDYgMC42NzE1MzIgMC42NzE4NjcgMCAxLjUwMDI1IDBIMi45OTIzNkMzLjE5OTY5IDAgMy4zNjc3NiAwLjE2Nzg5MyAzLjM2Nzc2IDAuMzc1QzMuMzY3NzYgMC41ODIxMDcgMy4xOTk2OSAwLjc1IDIuOTkyMzYgMC43NUgxLjc1MTExQzEuMTk4ODQgMC43NSAwLjc1MTEzNSAxLjE5NzcyIDAuNzUxMTM1IDEuNzVDMC43NTExMzUgMy4yNSAwLjc1MTEzNSA0Ljc1IDAuNzUxMTM1IDYuMjVDMC43NTExMzUgNi44MDIyOCAxLjE5ODg0IDcuMjUgMS43NTExMSA3LjI1SDQuOTc4NzZMOC4wMDg4OSA0TDUuMTAzMDcgMC42NDE4ODhDNC44NjQyIDAuNDA2MzY3IDUuMDMxMTYgMCA1LjM2Njc4IDBINy42ODc2NEM3Ljc4NDM4IDAgNy44NzczOSAwLjAzNzMwNzkgNy45NDcyNiAwLjEwNDE0M0wxMC44Mzg0IDMuNjM4NDZDMTEuMDQ0NCAzLjgzNTQ4IDExLjA0NDIgNC4xNjQzMyAxMC44MzggNC4zNjExMkw4LjMxMTE1IDcuMjVIOS40Mzc1OUwxMi4wMTMyIDRMOS4zODM0NCAwLjc1QzkuMjE4NjQgMC41ODcxNDUgOS4yMTY1NiAwLjI4NTcyMSA5LjM4MzQ0IDAuMTI1WiIgZmlsbD0iIzRBNEE0QSIvPjwvc3ZnPg==" width="13" height="8" alt="Click to Pay" style="display:inline-block; vertical-align:middle; border:0; width:13px; height:8px;">
+                  <!--[if !mso]><!-->
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwIDAgMTMgOCIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjM4MzQ0IDAuMTI1QzkuNTQ0MzggLTAuMDI5OTg2OCA5Ljc5OTU3IC0wLjAyODg0OTMgOS45NTkxMSAwLjEyNzU2NkwxMi44NTAxIDMuNjM4NzJDMTMuMDUxNyAzLjgzNjQxIDEzLjA0OTcgNC4xNjE1MiAxMi44NDU2IDQuMzU2NzFMMTAuMDA5NyA3Ljg5NTg2QzkuOTM5ODMgNy45NjI2OSA5Ljg0NjgyIDggOS43NTAwOCA4TDcuMzY4OTIgOEM3LjAzMzMgOCA2Ljg2NjM0IDcuNTkzNjMgNy4xMDUyMSA3LjM1ODExTDEwLjAxMSA0TDcuMzY4OTIgMC43NUg2LjMwOTAxTDguODM1OTEgMy42Mzg4OEM5LjA0MjEgMy44MzU2NyA5LjA0MjI4IDQuMTY0NTIgOC44MzYzIDQuMzYxNTRMNS41MTYyMSA3Ljg5NTg2QzUuNDQ2MzMgNy45NjI2OSA1LjM1MzMyIDggNS4yNTY1OCA4SDEuNDk5OTJDMC42NzE3MjQgOCAwLjAwMDI0NTA3NiA3LjMyODc1IDAuMDAwMTE3ODE2IDYuNTAwNTNDLTAuMDAwMTM4MzA1IDQuODMzNjYgNy45NjI3NGUtMDUgMy4xNjY4IDAuMDAwMjM5NDAxIDEuNDk5OTNDMC4wMDAzMTg4MDYgMC42NzE1MzIgMC42NzE4NjcgMCAxLjUwMDI1IDBIMi45OTIzNkMzLjE5OTY5IDAgMy4zNjc3NiAwLjE2Nzg5MyAzLjM2Nzc2IDAuMzc1QzMuMzY3NzYgMC41ODIxMDcgMy4xOTk2OSAwLjc1IDIuOTkyMzYgMC43NUgxLjc1MTExQzEuMTk4ODQgMC43NSAwLjc1MTEzNSAxLjE5NzcyIDAuNzUxMTM1IDEuNzVDMC43NTExMzUgMy4yNSAwLjc1MTEzNSA0Ljc1IDAuNzUxMTM1IDYuMjVDMC43NTExMzUgNi44MDIyOCAxLjE5ODg0IDcuMjUgMS43NTExMSA3LjI1SDQuOTc4NzZMOC4wMDg4OSA0TDUuMTAzMDcgMC42NDE4ODhDNC44NjQyIDAuNDA2MzY3IDUuMDMxMTYgMCA1LjM2Njc4IDBINy42ODc2NEM3Ljc4NDM4IDAgNy44NzczOSAwLjAzNzMwNzkgNy45NDcyNiAwLjEwNDE0M0wxMC44Mzg0IDMuNjM4NDZDMTEuMDQ0NCAzLjgzNTQ4IDExLjA0NDIgNC4xNjQzMyAxMC44MzggNC4zNjExMkw4LjMxMTE1IDcuMjVIOS40Mzc1OUwxMi4wMTMyIDRMOS4zODM0NCAwLjc1QzkuMjE4NjQgMC41ODcxNDUgOS4yMTY1NiAwLjI4NTcyMSA5LjM4MzQ0IDAuMTI1WiIgZmlsbD0iI0Q5RDlEOSIvPgo8L3N2Zz4K"
+                        width="13"
+                        height="8"
+                        class="dark-img"
+                        alt="Click to Pay icon"
+                        style="display:none; width:13px; height:8px; border:0;">
+                  <!--<![endif]-->
+                is a trademark owned and used with permission of EMVCo, LLC.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- Copyright + Logo row -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td valign="middle" class="email-body" style="padding: 24px 32px;">
+                    <p class="muted-text" style="margin:0; font-family:Verdana; font-weight: 400; line-height: 16px;
+                        font-size:11px; color:#4A4A4A; mso-line-height-rule:exactly;">
+                      &copy; 2026 Visa. All Rights Reserved.
+                    </p>
+                  </td>
+                  <td valign="middle" align="right" class="copyright-logo" style="padding: 24px 32px;">
+                    <img class="light-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDc1IDI0IiBmaWxsPSJub25lIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUzLjA4NDkgMTYuMDU5NkM1My4wOTkzIDEyLjM5NDEgNTAuMDYzOCAxMC44MDA3IDQ3LjYzNSA5LjUyNTc1QzQ2LjAwMzggOC42Njk1MiA0NC42NDYyIDcuOTU2ODkgNDQuNjY5NyA2Ljg1NjY1QzQ0LjY4NjkgNi4wMjQwOCA0NS40ODE3IDUuMTM2NDcgNDcuMjE1NiA0LjkxMjg0QzQ5LjI0NjIgNC43MTY1MiA1MS4yOTIxIDUuMDczMTUgNTMuMTM2NSA1Ljk0NDk1TDU0LjE5MjcgMS4wMzIxMUM1Mi4zOTczIDAuMzU3MzA2IDUwLjQ5NiAwLjAwNzgwNzQzIDQ4LjU3OCAwQzQyLjY2MDYgMCAzOC40NjY3IDMuMTU0ODIgMzguNDI4OSA3LjY3NTQ2QzM4LjM5MTEgMTEuMDA5MiA0MS40MTE3IDEyLjg4MDcgNDMuNjkyNyAxMy45OTJDNDYuMDMyMSAxNS4xMjczIDQ2LjgyIDE1Ljg1NjcgNDYuODA5NiAxNi44NzVDNDYuODA5NiAxOC40MzM1IDQ0Ljk0MTUgMTkuMTE4MSA0My4yMTc5IDE5LjE0NTZDNDAuMjkwNiAxOS4xOTIzIDM4LjU1NTYgMTguMzgyOCAzNy4xNzk5IDE3Ljc0MDlMMzcuMDQ5MyAxNy42OEwzNS45NTE4IDIyLjc2NDlDMzcuMzU1NSAyMy40MTE3IDM5Ljk0NjEgMjMuOTcyNSA0Mi42MzMgMjRDNDguOTM5MiAyNCA1My4wNjc3IDIwLjg4MyA1My4wODgzIDE2LjA1OTZINTMuMDg0OVpNMjguMjExIDAuNDIzMTY1TDE4LjQ4NTEgMjMuNjM1M0gxMi4xMzc2TDcuMzUyMDYgNS4xMTIzOUM3LjA1OTYzIDMuOTcwMTggNi44MDg0OSAzLjU1MzkgNS45MjQzMSAzLjA3MjI1QzQuNDcyNDggMi4yOTEyOCAyLjA5ODYyIDEuNTU1MDUgMCAxLjA5NzQ4TDAuMTQ0NDk1IDAuNDA5NDA0SDEwLjM1ODlDMTEuNzMzMyAwLjQxNTA0IDEyLjg5OTkgMS40MTgzNCAxMy4xMTEyIDIuNzc2MzhMMTUuNjM5OSAxNi4yMTFMMjEuOTA4MyAwLjQyMzE2NUgyOC4yMTFaTTc0LjMxMTkgMjMuNjI4NEg2OC43NTkyTDY4LjAzMzMgMjAuMTcwOUg2MC4zMzAzTDU5LjA3OCAyMy42MzUzSDUyLjc3NTJMNjEuNzc4NyAyLjEyNjE1QzYyLjIwNTMgMS4wOTE2MSA2My4yMTU4IDAuNDE4MzgyIDY0LjMzNDkgMC40MjMxNjVINjkuNDY0NUw3NC4zMTE5IDIzLjYyODRaTTYyLjA1NzMgMTUuNDEyOEw2NS4yMTkgNi42OTQ5NUw2Ny4wMzkgMTUuNDEyOEg2Mi4wNTczWk0zMS44MzAzIDIzLjYzNTNMMzYuODExOSAwLjQyMzE2NUgzMC43OTEzTDI1LjgyMzQgMjMuNjM1M0gzMS44MzAzWiIgZmlsbD0iIzE0MzRDQiIvPjwvc3ZnPg==" width="75" height="24" alt="Visa" style="display:block; border:0; width:75px; height:24px;">
+                    <!--[if !mso]><!-->
+                      <img class="dark-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDc1IDI0IiBmaWxsPSJub25lIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUzLjA4NDkgMTYuMDU5NkM1My4wOTkzIDEyLjM5NDEgNTAuMDYzOCAxMC44MDA3IDQ3LjYzNSA5LjUyNTc1QzQ2LjAwMzggOC42Njk1MiA0NC42NDYyIDcuOTU2ODkgNDQuNjY5NyA2Ljg1NjY1QzQ0LjY4NjkgNi4wMjQwOCA0NS40ODE3IDUuMTM2NDcgNDcuMjE1NiA0LjkxMjg0QzQ5LjI0NjIgNC43MTY1MiA1MS4yOTIxIDUuMDczMTUgNTMuMTM2NSA1Ljk0NDk1TDU0LjE5MjcgMS4wMzIxMUM1Mi4zOTczIDAuMzU3MzA2IDUwLjQ5NiAwLjAwNzgwNzQzIDQ4LjU3OCAwQzQyLjY2MDYgMCAzOC40NjY3IDMuMTU0ODIgMzguNDI4OSA3LjY3NTQ2QzM4LjM5MTEgMTEuMDA5MiA0MS40MTE3IDEyLjg4MDcgNDMuNjkyNyAxMy45OTJDNDYuMDMyMSAxNS4xMjczIDQ2LjgyIDE1Ljg1NjcgNDYuODA5NiAxNi44NzVDNDYuODA5NiAxOC40MzM1IDQ0Ljk0MTUgMTkuMTE4MSA0My4yMTc5IDE5LjE0NTZDNDAuMjkwNiAxOS4xOTIzIDM4LjU1NTYgMTguMzgyOCAzNy4xNzk5IDE3Ljc0MDlMMzcuMDQ5MyAxNy42OEwzNS45NTE4IDIyLjc2NDlDMzcuMzU1NSAyMy40MTE3IDM5Ljk0NjEgMjMuOTcyNSA0Mi42MzMgMjRDNDguOTM5MiAyNCA1My4wNjc3IDIwLjg4MyA1My4wODgzIDE2LjA1OTZINTMuMDg0OVpNMjguMjExIDAuNDIzMTY1TDE4LjQ4NTEgMjMuNjM1M0gxMi4xMzc2TDcuMzUyMDYgNS4xMTIzOUM3LjA1OTYzIDMuOTcwMTggNi44MDg0OSAzLjU1MzkgNS45MjQzMSAzLjA3MjI1QzQuNDcyNDggMi4yOTEyOCAyLjA5ODYyIDEuNTU1MDUgMCAxLjA5NzQ4TDAuMTQ0NDk1IDAuNDA5NDA0SDEwLjM1ODlDMTEuNzMzMyAwLjQxNTA0IDEyLjg5OTkgMS40MTgzNCAxMy4xMTEyIDIuNzc2MzhMMTUuNjM5OSAxNi4yMTFMMjEuOTA4MyAwLjQyMzE2NUgyOC4yMTFaTTc0LjMxMTkgMjMuNjI4NEg2OC43NTkyTDY4LjAzMzMgMjAuMTcwOUg2MC4zMzAzTDU5LjA3OCAyMy42MzUzSDUyLjc3NTJMNjEuNzc4NyAyLjEyNjE1QzYyLjIwNTMgMS4wOTE2MSA2My4yMTU4IDAuNDE4MzgyIDY0LjMzNDkgMC40MjMxNjVINjkuNDY0NUw3NC4zMTE5IDIzLjYyODRaTTYyLjA1NzMgMTUuNDEyOEw2NS4yMTkgNi42OTQ5NUw2Ny4wMzkgMTUuNDEyOEg2Mi4wNTczWk0zMS44MzAzIDIzLjYzNTNMMzYuODExOSAwLjQyMzE2NUgzMC43OTEzTDI1LjgyMzQgMjMuNjM1M0gzMS44MzAzWiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" width="75" height="24" alt="Visa" style="display:block; border:0; width:75px; height:24px;">
+                    <!--<![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
