@@ -1356,10 +1356,7 @@ Use these resolved values directly in template inline styles (no CSS variable ne
 <td style="background-color:#fafafa; padding:24px 32px;">
 
 <!-- Divider border -->
-<td style="border-top:1px solid #e6e6e6; font-size:0; line-height:0;">&nbsp;</td>
-
-<!-- Header bottom border -->
-<td style="border-bottom:3px solid #1434cb;">
+<td style="border-top:1px solid #E5E5E5; font-size:0; line-height:0;">&nbsp;</td>
 ```
 
 ---

@@ -69,6 +69,10 @@
       color: #C7EDFF !important;
     }
 
+    .email-content-heading {
+      color: #1434CB !important;
+    }
+
     /* DARK MODE via @media — Apple Mail, iOS Mail, Outlook.com partial */
     @media (prefers-color-scheme: dark) {
 
@@ -138,6 +142,10 @@
       .divider-row td {
         border-top-color: #444444 !important;
       }
+
+      .email-content-heading {
+        color: #BDEAFF !important;
+      }
     }
 
     /* DARK MODE via [data-ogsc] — Outlook App iOS + Android, Outlook.com */
@@ -204,6 +212,10 @@
       color: #00344D !important;
     }
 
+    [data-ogsc] .email-content-heading {
+      color: #BDEAFF !important;
+    }
+
     /* RESPONSIVE — MOBILE */
     @media only screen and (max-width: 600px) {
       .email-container {
@@ -265,12 +277,12 @@
             <td class="email-hero hero-section" style="background-color:#1434CB; padding:24px 32px;">
               <h1 class="font-color-heading" style="margin:0 0 12px 0; font-family:Tahoma; letter-spacing: 0.5px;
                    font-size:36px; font-weight:400;
-                   line-height:44px; mso-line-height-rule:exactly;">
+                   line-height:47px; mso-line-height-rule:exactly;">
                 Click to Pay
               </h1>
               <p class="eyebrow-text" style="margin:0; font-family:Tahoma;
-                  font-size:21px; font-weight:400; color:#C7EDFF;
-                  line-height:26px; mso-line-height-rule:exactly;">
+                  font-size:22px; font-weight:400;
+                  line-height:29px; mso-line-height-rule:exactly;">
                 Your card on-demand
               </p>
             </td>
@@ -279,10 +291,10 @@
           <!-- ===== MAIN HEADING ===== -->
           <tr>
             <td class="email-body" style="padding:32px 32px 8px; background-color:#ffffff;">
-              <h2 style="margin:0; font-family:Verdana;
+              <h2 class="email-content-heading" style="margin:0; font-family:Verdana;
                    font-size:36px; font-weight:400; color:#1434CB; letter-spacing: 0.5px;
                    line-height:47px; mso-line-height-rule:exactly;">
-                We were unable to<br>add your card
+                We were unable to add your card
               </h2>
             </td>
           </tr>
@@ -315,7 +327,7 @@
             <td style="padding:24px 32px 0;">
               <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
-                  <td style="border-top:1px solid #e5e7eb; font-size:0; line-height:0;">&nbsp;</td>
+                  <td style="border-top:1px solid #E5E5E5; font-size:0; line-height:0;">&nbsp;</td>
                 </tr>
               </table>
             </td>
@@ -342,7 +354,7 @@
             <td style="padding:24px 32px 0;">
               <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
-                  <td style="border-top:1px solid #e5e7eb; font-size:0; line-height:0;">&nbsp;</td>
+                  <td style="border-top:1px solid #E5E5E5; font-size:0; line-height:0;">&nbsp;</td>
                 </tr>
               </table>
             </td>
