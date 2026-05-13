@@ -1320,23 +1320,23 @@ Use these resolved values directly in template inline styles (no CSS variable ne
 
 <!-- Hero H1 title -->
 <h1 style="font-family:Tahoma,Helvetica,Arial,sans-serif;
-           font-size:36px; font-weight:700; color:#ffffff;
+           font-size:36px; font-weight:400; color:#ffffff;
            line-height:47px; mso-line-height-rule:exactly; margin:0;">
 
 <!-- Section heading H2 -->
 <h2 style="font-family:Verdana,Arial,Helvetica,sans-serif;
-           font-size:21px; font-weight:700; color:#292829;
-           line-height:25px; mso-line-height-rule:exactly; margin:0 0 16px 0;">
+           font-size:36px; font-weight:400; color:#292829;
+           line-height:47px; mso-line-height-rule:exactly; margin:0 0 16px 0;">
 
 <!-- FAQ question H3 -->
 <h3 style="font-family:Verdana,Arial,Helvetica,sans-serif;
-           font-size:18px; font-weight:700; color:#141413;
+           font-size:18px; font-weight:400; color:#141413;
            line-height:22px; mso-line-height-rule:exactly; margin:0 0 8px 0;">
 
 <!-- Body copy -->
 <p style="font-family:Verdana,Arial,Helvetica,sans-serif;
           font-size:14px; font-weight:400; color:#141413;
-          line-height:21px; mso-line-height-rule:exactly; margin:0 0 16px 0;">
+          line-height:21px; mso-line-height-rule:exactly; margin:0 0 18x 0;">
 
 <!-- Link -->
 <a style="color:#0d68f2; text-decoration:underline; font-weight:500;">
