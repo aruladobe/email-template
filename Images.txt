@@ -1,0 +1,40 @@
+00344D.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/00344D.png
+BDEAFF.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/BDEAFF.png
+CVP_IMAGE.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/CVP_IMAGE.png
+PERSON_SHOPPING_IMAGE.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/PERSON_SHOPPING_IMAGE.png
+VISA_SYMBOL.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/VISA_SYMBOL.png
+chevron_blue.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/chevron_blue.png
+chevron_light.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/chevron_light.png
+ctp-logo-grey.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/ctp-logo-grey.png
+ctp-logo-white.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/ctp-logo-white.png
+icon-bulb-blue-full.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-bulb-blue-full.png
+icon-bulb-light-full.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-bulb-light-full.png
+icon-clipboard-blue.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-clipboard-blue.png
+icon-clipboard-light.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-clipboard-light.png
+icon-link-blue.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-link-blue.png
+icon-link-light.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-link-light.png
+icon-monitor-blue-copy.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-monitor-blue-copy.png
+icon-monitor-blue-new.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-monitor-blue-new.png
+icon-monitor-light-full.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-monitor-light-full.png
+icon-monitor-light.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/icon-monitor-light.png
+importance.png
+   URL: https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/importance.png
