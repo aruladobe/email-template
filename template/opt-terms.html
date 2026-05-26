@@ -77,6 +77,10 @@
       color: #1434CB !important;
     }
 
+    .hero-section {
+      background-color: #1434CB !important;
+    }
+
     /* DARK MODE via @media — Apple Mail, iOS Mail, Outlook.com partial */
     @media (prefers-color-scheme: dark) {
 
@@ -150,6 +154,10 @@
       .email-content-heading {
         color: #BDEAFF !important;
       }
+
+      .hero-section {
+        background-color: #BDEAFF !important;
+      }
     }
 
     /* DARK MODE via [data-ogsc] — Outlook App iOS + Android, Outlook.com */
@@ -220,6 +228,10 @@
       color: #BDEAFF !important;
     }
 
+    [data-ogsc] .hero-section {
+      background-color: #BDEAFF !important;
+    }
+
     /* RESPONSIVE — MOBILE */
     @media only screen and (max-width: 600px) {
       .email-container {
@@ -278,7 +290,7 @@
 
           <!-- ===== HERO SECTION ===== -->
           <tr>
-            <td class="email-hero" style="background-color:#1434CB; padding:24px 32px;">
+            <td class="email-hero hero-section" style="background-color:#1434CB; padding:24px 32px;">
               <h1 class="font-color-heading" style="margin:0 0 12px 0; font-family:Tahoma; letter-spacing: 0.5px;
                    font-size:36px; font-weight:400;
                    line-height:47px; mso-line-height-rule:exactly;">
