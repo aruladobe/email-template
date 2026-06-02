@@ -272,7 +272,7 @@ AVOID:  margin on any element — unreliable in Outlook; use padding on <td>
       .text-on-dark { color:#e8e8e8 !important; }
       h1            { color:#2E2E2E !important; }
       h2, h3        { color:#7ab3d4 !important; }
-      p, li, td, span { color:#e0e0e0 !important; }
+      p, li, td, span { color:#ffffff !important; }
       .accent-text  { color:#bdd5e8 !important; }
       .muted-text   { color:#888888 !important; }
       a.link        { color:#7ab3d4 !important; }
@@ -303,7 +303,7 @@ AVOID:  margin on any element — unreliable in Outlook; use padding on <td>
     [data-ogsc] p,
     [data-ogsc] li,
     [data-ogsc] td,
-    [data-ogsc] span          { color:#e0e0e0   !important; }
+    [data-ogsc] span          { color:#ffffff   !important; }
     [data-ogsc] .accent-text  { color:#bdd5e8   !important; }
     [data-ogsc] .muted-text   { color:#888888   !important; }
     [data-ogsc] a.link        { color:#7ab3d4   !important; }
@@ -472,7 +472,7 @@ Background footer:     #111111   Deepest charcoal
 Background CTA:        #3a6bbf   Lightened for contrast
 
 Text on dark:          #e8e8e8   Off-white
-Text primary:          #e0e0e0   Soft white
+Text primary:          #ffffff   Soft white
 Text heading:          #7ab3d4   Muted light blue
 Text accent:           #bdd5e8   Light blue-white
 Text link:             #7ab3d4   Accessible light blue
@@ -716,7 +716,7 @@ SVG is **not supported** in email. Never use `<svg>` inline or reference SVG fil
   <td style="padding:0 32px;">
     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
       <tr>
-        <td style="border-top:1px solid #e0e0e0; font-size:0; line-height:0;">&nbsp;</td>
+        <td style="border-top:1px solid #ffffff; font-size:0; line-height:0;">&nbsp;</td>
       </tr>
     </table>
   </td>
@@ -1255,7 +1255,7 @@ VERDICT: FAIL — 3 blockers must be resolved
 | `--dark-bg-footer` | `#111111` | `--bg-footer` |
 | `--dark-bg-button` | `#3a6bbf` | `--bg-button` — lightened for contrast |
 | `--dark-text-heading` | `#bdd5e8` | `--text-heading` |
-| `--dark-text-primary` | `#e0e0e0` | `--text-primary` |
+| `--dark-text-primary` | `#ffffff` | `--text-primary` |
 | `--dark-text-section` | `#7ab3d4` | `--text-section` |
 | `--dark-text-footer` | `#888888` | `--text-footer` |
 | `--dark-text-link` | `#7ab3d4` | `--visa-blue-active` links |
