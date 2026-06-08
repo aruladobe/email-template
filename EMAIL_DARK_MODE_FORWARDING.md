@@ -35,11 +35,11 @@ User OS = Dark Mode
   → Only inline styles remain:
       hero td  → background: #1434CB  (Visa blue)
       body td  → background: #ffffff  (white)
-      p        → color: #333333       (dark text)
+      p        → color: #000000       (dark text)
   → Gmail auto-dark transforms:
       #1434CB  → desaturated dark slate
       #ffffff  → dark gray
-      #333333  → near-white (inverted)
+      #000000  → near-white (inverted)
   → ❌ Inconsistent, broken color scheme
 ```
 
