@@ -115,6 +115,29 @@
         text-align: center !important;
       }
     }
+
+     /* Target dark mode on mobile email clients, like Iphone app on IOS */
+    @media only screen and (max-width: 600px) and (prefers-color-scheme: dark) {
+      .light-logo {
+        display: block !important;
+      }
+
+      .dark-logo {
+        display: none !important;
+      }
+
+      /* Section headings white in dark mode */
+      .heading {
+        color: #1434CB !important;
+        -webkit-text-fill-color: #1434CB !important;
+      }
+
+      /* Accent band text white in dark mode */
+      .accent-text {
+        color: #1434CB !important;
+        -webkit-text-fill-color: #1434CB !important;
+      }
+    }
   </style>
 </head>
 
