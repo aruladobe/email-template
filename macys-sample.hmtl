@@ -1,0 +1,3761 @@
+<!doctype html>
+<html style class>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="content-version" content="3.3.57">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <style data-name="default" type="text/css">
+    body {
+      font-family: sans-serif;
+      margin: 0 !important;
+      padding: 0 !important;
+      background: #FFFFFF;
+      min-width: 750px;
+    }
+
+    td,
+    th {
+      padding: 0;
+    }
+
+    th {
+      font-weight: normal;
+      text-align: left;
+    }
+
+    .acr-fragment,
+    .acr-component {
+      padding: 0;
+    }
+
+    .acr-fragment img,
+    .acr-component img {
+      vertical-align: middle;
+    }
+
+    .divider-container {
+      padding: 5px 0;
+      font-size: 0;
+    }
+
+    .text-container p {
+      margin: 0;
+    }
+
+    .text-container ul,
+    .text-container ol {
+      padding-left: 40px;
+    }
+
+    .image-container {
+      line-height: 0;
+    }
+
+    .image-container img {
+      height: auto;
+    }
+
+    .button-container a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .acr-structure {
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+
+    .structure__table {
+      table-layout: fixed;
+      margin: 0 auto;
+      border-spacing: 0;
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+
+    .colspan1,
+    .colspan2,
+    .colspan3,
+    .colspan4,
+    .colspan33,
+    .colspan66,
+    .colspan-n {
+      background-size: auto;
+      background-repeat: no-repeat;
+      box-sizing: border-box;
+    }
+
+    .colspan1 {
+      width: 100%;
+    }
+
+    .colspan2 {
+      width: 50%;
+    }
+
+    .colspan3 {
+      width: 75%;
+    }
+
+    .colspan4 {
+      width: 25%;
+    }
+
+    .colspan33 {
+      width: 33%;
+    }
+
+    .colspan66 {
+      width: 66%;
+    }
+
+    .acr-grid-column {
+      box-sizing: border-box;
+    }
+
+    .component-social-container {
+      width: 100%;
+      text-align: center;
+    }
+
+    span.preheader {
+      display: none !important;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      display: block;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin: 19px 0;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin: 20px 0;
+    }
+
+    h3 {
+      font-size: 19px;
+      margin: 19px 0;
+    }
+
+    h4 {
+      font-size: 16px;
+      margin: 21px 0;
+    }
+
+    h5 {
+      font-size: 13px;
+      margin: 22px 0;
+    }
+
+    h6 {
+      font-size: 11px;
+      margin: 25px 0;
+    }
+
+    @media (min-width:500px) {
+
+      .is-desktop-hidden,
+      .is-mobile-visible {
+        display: none !important;
+      }
+
+      .is-desktop-visible {
+        display: block !important;
+      }
+
+      th.is-desktop-visible {
+        display: table-cell !important;
+      }
+    }
+
+    .acr-dark-img {
+      display: none;
+    }
+  </style>
+  <style data-name="grid" type="text/css">
+    .acr-grid-table {
+      width: 100%;
+      table-layout: fixed;
+      border-spacing: 0;
+    }
+
+    .acr-grid-column,
+    .acr-repeat-grid-column {
+      box-sizing: border-box;
+    }
+
+    @media screen and (max-width: 500px) {
+      .acr-grid-table td {
+        display: block;
+        min-width: 100%;
+      }
+    }
+  </style>
+  <style data-name="media-default-max-width-500px" type="text/css">
+    @media screen and (max-width: 500px) {
+
+      body,
+      #acr-body {
+        width: 100% !important;
+        min-width: 0 !important;
+      }
+
+      .structure__table {
+        width: 100% !important;
+      }
+
+      .colspan1,
+      .colspan2,
+      .colspan3,
+      .colspan4,
+      .colspan33,
+      .colspan66,
+      .colspan-n {
+        display: block !important;
+        min-width: 100%;
+      }
+
+      .is-mobile-hidden,
+      .is-desktop-visible {
+        display: none !important;
+      }
+
+      .is-mobile-visible {
+        display: block !important;
+      }
+    }
+  </style>
+  <style data-name="media-custom-prefers-color-scheme-dark" type="text/css">
+    @media (prefers-color-scheme: dark) {
+      .acr-dark-img {
+        display: inline-block !important;
+      }
+
+      .acr-light-img {
+        display: none !important;
+      }
+    }
+  </style>
+  <title>Thank you for your order! #979262274544_1B_AMEX MSTORE</title>
+  <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+  <style type="text/css" class="walkme-to-remove" id="walkme-player-css"
+    data-fragment-ref="ajo:9134ab2d-8f92-4b6a-a878-5b8014e6a395">
+    @media print {
+      .walkme-player {
+        display: none !important;
+      }
+    }
+
+    @media print {
+      .walkme-menu {
+        display: none !important;
+      }
+    }
+
+    @media print {
+      #walkme-attengrab {
+        display: none !important;
+      }
+    }
+  </style>
+  <style data-name="global-custom" type="text/css">
+    .block {
+      display: none;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      .block {
+        display: none !important;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .block {
+        display: block !important;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .padt2220 {
+        padding: 22px 20px 32px 20px !important;
+      }
+
+      .padlr20tb50new {
+        padding: 48px 20px !important;
+      }
+
+      .padlr24b0 {
+        padding: 24px 20px 0px 20px !important;
+      }
+
+      .pad2420 {
+        padding: 24px 20px 24px 20px !important;
+      }
+
+      .padt0lr20 {
+        padding: 0px 20px 24px 20px !important;
+      }
+
+      .padtb0lr20 {
+        padding: 0px 20px !important;
+      }
+
+      .pad3220 {
+        padding: 32px 20px !important;
+      }
+
+      .padlr20b48 {
+        padding: 24px 20px 48px 20px !important;
+      }
+
+      .padlr20 {
+        padding: 16px 20px !important;
+      }
+
+      .padlr20b0 {
+        padding: 16px 20px 0px 20px !important;
+      }
+
+      .padtblr25 {
+        padding: 25px 20px !important;
+      }
+
+      .padlr20b40 {
+        padding: 16px 20px 40px 20px !important;
+      }
+
+      .padlr20tb40 {
+        padding: 40px 20px !important;
+      }
+
+      .padlr20nt {
+        padding: 0px 20px !important;
+      }
+
+      .padlr20ntb17 {
+        padding: 0px 20px 20px 20px !important;
+      }
+
+      .padlr20tb50 {
+        padding: 50px 10px 20px 10px !important;
+      }
+
+      .padlr20nb {
+        padding: 16px 20px 0 20px !important;
+      }
+
+      .padl20r5 {
+        padding: 16px 5px 16px 20px !important;
+      }
+
+      .font22 {
+        font-size: 22px !important;
+      }
+
+      .font10 {
+        font-size: 10px !important;
+      }
+
+      .font21 {
+        font-size: 21px !important;
+      }
+
+      .font20 {
+        font-size: 20px !important;
+      }
+
+      .font14 {
+        font-size: 14px !important;
+      }
+
+      .font12 {
+        font-size: 12px !important;
+      }
+
+      .font18 {
+        font-size: 18px !important;
+      }
+
+      .ln28 {
+        line-height: 28px !important;
+      }
+
+      .ln23 {
+        line-height: 23px !important;
+      }
+
+      .ln20 {
+        line-height: 20px !important;
+      }
+
+      .ln19 {
+        line-height: 19px !important;
+      }
+
+      .ln21 {
+        line-height: 21px !important;
+      }
+
+      .ln22 {
+        line-height: 22px !important;
+      }
+
+      .ln16 {
+        line-height: 16px !important;
+      }
+
+      .padl20r0 {
+        padding: 24px 0px 24px 20px !important;
+      }
+
+      .mn100 {
+        height: 40px !important;
+      }
+
+      .width_auto {
+        width: auto !important;
+      }
+
+      .widthauto {
+        width: auto !important;
+      }
+
+      .width147 {
+        width: 147px !important;
+      }
+
+      .height134 {
+        height: 134px !important;
+      }
+
+      .width15 {
+        width: 15px !important;
+      }
+
+      .height140 {
+        height: 140px !important;
+      }
+
+      .width59 {
+        width: 59px !important;
+      }
+
+      .height11 {
+        height: 11px !important;
+      }
+
+      .width16 {
+        width: 16px !important;
+      }
+
+      .width25 {
+        width: 25% !important;
+      }
+
+      .width100pc {
+        width: 100% !important;
+      }
+
+      .hide {
+        display: none !important;
+      }
+    }
+
+    .width16 {
+      width: 16px !important;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html {
+        background-color: #444444 !important;
+      }
+
+      .dm_bg_dark {
+        background-color: #000001 !important;
+      }
+
+      .dg_bg_grey {
+        background-color: #444444 !important;
+      }
+
+      .divider-mso-hidden {
+        border-color: #444444 !important;
+      }
+
+      .dm_bg_darkgrey {
+        background-color: #323232 !important;
+      }
+
+      .dm_bg_white {
+        background-color: #fffffe !important;
+      }
+
+      .dm_bg_offwhite {
+        background-color: #f6f6f6 !important;
+      }
+
+      h1 a,
+      h2,
+      h2 a,
+      h3,
+      h3 a,
+      h4 a,
+      h4,
+      h5 a,
+      h5,
+      h6 a,
+      div.fs24,
+      div.fs18,
+      .font_ramp p,
+      .font_ramp p>a,
+      p.center,
+      p.fs14,
+      p.fs14 a,
+      p.fs12,
+      p.fs12 a,
+      p.center a,
+      p a.keep-white,
+      p span .navlink_container a,
+      a.cta_01,
+      a.fs14,
+      .dm_txt_white {
+        color: #fffffe !important
+      }
+
+      .btn_outline {
+        color: #fffffe !important;
+        border-color: #fffffe !important;
+        background-color: transparent !important;
+      }
+
+      .btn_white {
+        color: #000000 !important;
+        border-color: #fffffe !important;
+        background-color: #fffffe !important;
+      }
+
+      .hr {
+        background-color: #fffffe !important;
+      }
+
+      .dm_txt_black,
+      a.dm_txt_black {
+        color: #000001 !important;
+      }
+
+      .dm_border_white {
+        border-color: #fffffe !important;
+        padding-right: 6px !important;
+      }
+
+      p.dm_txt_red {
+        color: #E01A2B !important;
+      }
+
+      .dm_txt_red {
+        color: #E01A2B !important;
+      }
+
+      span.dm_txt_white {
+        color: #fffffe !important;
+      }
+    }
+
+    a[x-apple-data-detectors],
+    a[x-apple-data-detectors]:hover,
+    a[x-apple-data-detectors]:active,
+    a[x-apple-data-detectors]:visited {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      pointer-events: none !important;
+    }
+
+    .mobile-only {
+      display: none !important;
+      max-height: 0 !important;
+      overflow: hidden !important;
+      mso-hide: all !important;
+    }
+
+    @media screen and (max-width:600px) {
+      .mobile-only {
+        display: block !important;
+        max-height: none !important;
+        overflow: visible !important;
+      }
+    }
+
+    .width114 {
+      width: 92px !important;
+      max-width: 92px !important;
+    }
+
+    @media only screen and (min-width: 380px) {
+      .width114 {
+        width: 100px !important;
+        max-width: 100px !important;
+      }
+    }
+
+    @media only screen and (min-width: 390px) {
+      .width114 {
+        width: 100px !important;
+        max-width: 100px !important;
+      }
+    }
+
+    @media only screen and (min-width: 401px) {
+      .width114 {
+        width: 114px !important;
+        max-width: 114px !important;
+      }
+    }
+
+    @media only screen and (min-width: 501px) {
+      .width114 {
+        width: 120px !important;
+        max-width: 120px !important;
+      }
+    }
+  </style>
+</head>
+
+<body class id="acr-body" style="min-width:688px;"><span
+    style="display:none !important;visibility:hidden;mso-hide:all;opacity:0;" class="acr-preheader">We hope you love
+    it!</span>
+  <div class="acr-container">
+    <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column">
+      <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688"
+        height="auto" style="height:auto;width:688px;">
+        <tbody>
+          <tr role="presentation">
+            <th class="colspan1">
+              <div data-params-shared-vars="{}" data-fragment-legacy="true"
+                data-source-uuid="2ded65af-4061-49ba-a013-a38c0eb7cf15"
+                data-fragment-ref="ajo:7ad6f689-acd4-448f-9c08-a3831730ce46" data-contenteditable="false">
+                <table align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
+                  <tbody>
+                    <tr role="presentation">
+                      <th class="colspan1">
+                        <div class="acr-fragment acr-component" data-source-uuid="952d4573-5937-4fb4-8e40-e9df12afb1ee"
+                          data-component-id="html" data-unlocked-styles data-contenteditable="true">
+                          <table align="center" cellpadding="0" cellspacing="0" border="0"
+                            style="box-sizing:border-box;table-layout:fixed;width:100%;">
+                            <tbody style="box-sizing:border-box;">
+                              <tr role="presentation" style="box-sizing:border-box;">
+                                <th class="colspan1" style="box-sizing:border-box;">
+                                  <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+                                  <div class="acr-fragment is-locked"
+                                    data-fragment-id="ajo:77018fc1-d04e-4d1e-9e8f-5d7f137cc44a">
+                                    <table align="center" cellpadding="0" cellspacing="0" border="0"
+                                      style="width: 100%; table-layout: fixed;">
+                                      <tbody>
+                                        <tr role="presentation">
+                                          <th class="colspan1">
+                                            <div class="acr-tmp-component"
+                                              data-source-uuid="952d4573-5937-4fb4-8e40-e9df12afb1ee"
+                                              data-contenteditable="true" data-tmp-component-id="html">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0"
+                                                style="box-sizing:border-box;table-layout:fixed;width:100%;">
+                                                <tbody style="box-sizing:border-box;">
+                                                  <tr role="presentation" style="box-sizing:border-box;">
+                                                    <th class="colspan1" style="box-sizing:border-box;">
+                                                      <div class="acr-tmp-component"
+                                                        data-source-uuid="952d4573-5937-4fb4-8e40-e9df12afb1ee"
+                                                        data-tmp-component-id="html" style="box-sizing:border-box;"
+                                                        data-contenteditable="true">
+
+
+                                                        <span style="box-sizing:border-box;display:none;">
+
+                                                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- Hidden Preheader -->
+                                                          <div
+                                                            style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;">
+                                                             ͏</div>&nbsp;&nbsp;&nbsp;
+                                                           ͏&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;
+                                                          ‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;
+                                                          ‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;
+                                                          ‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;
+                                                          ‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        </span>
+                                                      </div>
+                                                    </th>
+                                                  </tr>
+                                                </tbody><!-- OES_TRANSACTION_ID:432900267018540 -->
+                                              </table>
+                                            </div>
+                                          </th>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </th>
+                              </tr>
+                            </tbody><!-- OES_TRANSACTION_ID:432900267018540 -->
+                          </table>
+                        </div>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+      data-lock-type="editable">
+      <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+        <tbody>
+          <tr role="presentation">
+            <th class="colspan1">
+              <div data-params-shared-vars="{}" data-fragment-legacy="true"
+                data-source-uuid="29eaecbe-cab4-4e89-b1f9-275a709b102b"
+                data-fragment-ref="ajo:bbeb6da7-1803-4694-bef9-258a9d5a1982" data-contenteditable="false">
+                <table align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
+                  <tbody>
+                    <tr role="presentation">
+                      <th class="colspan1">
+                        <div data-params-shared-vars="{}" data-fragment-legacy="true"
+                          data-source-uuid="68d09beb-ab67-4af3-87c6-a9d4003b2abb"
+                          data-fragment-ref="ajo:bbeb6da7-1803-4694-bef9-258a9d5a1982" data-contenteditable="false">
+                          <table align="center" cellpadding="0" cellspacing="0" border="0"
+                            style="width:100%;table-layout:fixed;">
+                            <tbody>
+                              <tr role="presentation">
+                                <th class="colspan1">
+                                  <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+                                  <div class="acr-fragment is-locked"
+                                    data-fragment-id="ajo:fa4cfe0f-2973-415a-ac11-3b8a41d07e0e">
+                                    <table align="center" cellpadding="0" cellspacing="0" border="0"
+                                      style="width: 100%; table-layout: fixed;">
+                                      <tbody>
+                                        <tr role="presentation">
+                                          <th class="colspan1">
+                                            <div class="acr-tmp-component"
+                                              data-source-uuid="12fc67e7-8583-4726-a22b-a126b1b43c8c"
+                                              data-contenteditable="true" data-tmp-component-id="html">
+                                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td align="left" valign="top">
+                                                      <!--[if mso]><table cellpadding="0" cellspacing="0" border="0" width="100%" class=""><tr><td style="null" ><![endif]-->
+                                                      <div class="is-desktop-visible hide" data-contenteditable="true">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="left" valign="top"
+                                                                style="padding:16px 30px;background-color:#fffffe;background-image:url('https://cdn.macyscominc.dev.cjmadobe.com/5d130de8-5ea5-40ff-930d-e85ea530ff14/urn:aaid:aem:b52bccfc-3cb4-4d74-9b44-d019efd7a010/oak:1.0::ci:528b84530bd0769d519ff3086466d23b/a3185d9a-114c-304f-8b87-29bd05c7fe49');width:100%;background-size:cover;"
+                                                                bgcolor="#fffffe"
+                                                                background="https://cdn.macyscominc.dev.cjmadobe.com/5d130de8-5ea5-40ff-930d-e85ea530ff14/urn:aaid:aem:b52bccfc-3cb4-4d74-9b44-d019efd7a010/oak:1.0::ci:528b84530bd0769d519ff3086466d23b/a3185d9a-114c-304f-8b87-29bd05c7fe49">
+                                                                <a target="_blank" style="text-decoration:none;"
+                                                                  data-source-uuid="94f185f1-70f0-4b50-bcfe-f2e50890ed78"
+                                                                  class data-nl-type="DEEPLINK"
+                                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=69f86d72331e463f3611fa3e&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c"><img
+                                                                    width="142"
+                                                                    style="display: block; border: 0px; font-family: Arial, &quot;Helvetica Neue&quot;, sans-serif, Arial; color: rgb(0, 0, 0); height: 40px; width: 142px;"
+                                                                    alt="Macy's" height="40" class
+                                                                    data-medialibrary-source="aem"
+                                                                    src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:b39c9dc3-cba9-4d0f-9ec2-80fabc6b0b05/oak:1.0::ci:d66fd31d8b250af6537bc2d46c723717/8a977c51-dc83-32e8-903c-7ed31d7766d5"></a>
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </div>
+                                                      <!--[if mso]></td></tr></table><![endif]--><!--[if !mso]><!-- -->
+                                                      <div class="is-mobile-visible block" style="display:none;"
+                                                        data-contenteditable="true">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="left" valign="top"
+                                                                style="padding:16px 20px;background-color:#fffffe;background-image:url('https://cdn.macyscominc.dev.cjmadobe.com/5d130de8-5ea5-40ff-930d-e85ea530ff14/urn:aaid:aem:cd3de1cf-60ae-4bc0-a075-4d349513f52c/oak:1.0::ci:cc6dcd91d31b86140ea2513723cc389a/c9e1c429-8b75-3064-8cbd-28abc9aeb9e0');"
+                                                                bgcolor="#fffffe"
+                                                                background="https://cdn.macyscominc.dev.cjmadobe.com/5d130de8-5ea5-40ff-930d-e85ea530ff14/urn:aaid:aem:cd3de1cf-60ae-4bc0-a075-4d349513f52c/oak:1.0::ci:cc6dcd91d31b86140ea2513723cc389a/c9e1c429-8b75-3064-8cbd-28abc9aeb9e0">
+                                                                <a target="_blank" style="text-decoration:none;"
+                                                                  data-source-uuid="94f185f1-70f0-4b50-bcfe-f2e50890ed78"
+                                                                  class data-nl-type="DEEPLINK"
+                                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=69f86d72331e463f3611fa3e&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c"><img
+                                                                    width="85"
+                                                                    style="display: block; border: 0px; font-family: Arial, &quot;Helvetica Neue&quot;, sans-serif, Arial; color: rgb(0, 0, 0); height: 24px; width: 85px;"
+                                                                    alt="Macy's" height="24" class
+                                                                    data-medialibrary-source="aem"
+                                                                    src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:a9615dd1-7bb2-4326-a251-0da7b0a70496/oak:1.0::ci:60c186c51ff40bde45e4514349efb990/939cf547-71fa-3667-9926-ba9778640c3e"></a>
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </div><!--<![endif]-->
+                                                    </td>
+                                                  </tr>
+                                                </tbody><!-- OES_TRANSACTION_ID:432900267018540 -->
+                                              </table>
+                                            </div>
+                                          </th>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+      data-lock-type="editable">
+      <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+        <tbody>
+          <tr role="presentation">
+            <th class="colspan1">
+              <div data-params-shared-vars="{}" data-fragment-legacy="true"
+                data-source-uuid="39cebfe1-ab1a-4474-827a-172699d43ebc"
+                data-fragment-ref="ajo:a4856003-90c6-4a54-b909-ce1fc9f48977" data-contenteditable="false">
+                <table align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
+                  <tbody>
+                    <tr role="presentation">
+                      <th class="colspan1">
+                        <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}</style><![endif]-->
+                        <div class="acr-fragment is-locked" data-fragment-id="ajo:b25f707b-23e3-4861-a5b4-5392fc9f3fc5">
+                          <table align="center" cellpadding="0" cellspacing="0" border="0"
+                            style="width: 100%; table-layout: fixed;">
+                            <tbody>
+                              <tr role="presentation">
+                                <th class="colspan1">
+                                  <div class="acr-tmp-component" data-source-uuid="f4b9e4f2-575b-407b-bfcc-fc0efb348bc1"
+                                    data-contenteditable="true" data-tmp-component-id="html">
+                                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                      style="line-height:8px;font-size:8px;background-color:#F8F8F8;"
+                                      class="dg_bg_grey">
+                                      <tbody>
+                                        <tr>
+                                          <td height="8" style="line-height:8px;font-size:1px;background-color:#F8F8F8;"
+                                            class="dg_bg_grey">&nbsp;
+
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+      data-lock-type="editable">
+      <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+        <tbody>
+          <tr role="presentation">
+            <th class="colspan1">
+              <div data-params-shared-vars="{}" data-fragment-legacy="true"
+                data-source-uuid="4fa57692-20db-4b7f-92c4-ac618057d3ae"
+                data-fragment-ref="ajo:f63f02a3-435c-48f8-8c9b-61b9af5997eb" data-contenteditable="false">
+                <table align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
+                  <tbody>
+                    <tr role="presentation">
+                      <th class="colspan1">
+                        <div data-params-shared-vars="{}" data-fragment-legacy="true"
+                          data-source-uuid="7333ae89-d6cd-4673-9f30-91a0a4919e9e"
+                          data-fragment-ref="ajo:269b1ecb-4cef-4c10-b20c-d84a15e3ab73" data-contenteditable="false">
+                          <table align="center" cellpadding="0" cellspacing="0" border="0"
+                            style="width:100%;table-layout:fixed;">
+                            <tbody>
+                              <tr role="presentation">
+                                <th class="colspan1">
+                                  <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+                                  <div class="acr-fragment is-locked"
+                                    data-fragment-id="ajo:269b1ecb-4cef-4c10-b20c-d84a15e3ab73">
+                                    <table align="center" cellpadding="0" cellspacing="0" border="0"
+                                      style="width: 100%; table-layout: fixed;">
+                                      <tbody>
+                                        <tr role="presentation">
+                                          <th class="colspan1">
+                                            <div class="acr-tmp-component"
+                                              data-source-uuid="02a77e2f-9b21-4bd8-9aba-ebb02259930a"
+                                              data-contenteditable="true" data-tmp-component-id="html"><span
+                                                style="display:none;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                {!-- Arrival date logic to 364_carrier_delay--}
+
+
+
+                                                {!-- Dates logic to 275_1st_delay--}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                {!-- Dates logic to 275_1st_delay--}
+
+
+
+                                                {!-- Cancel Dates logic to 275_1st_delay--}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                {!-- Dates logic to 275_1st_delay--}
+
+
+
+                                                {!-- Cancel Dates logic to 275_1st_delay--}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                {!-- Dates logic to 275_1st_delay--}
+
+
+
+                                                {!-- Cancel Dates logic to 275_1st_delay--}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                              </span>
+                                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td align="left" valign="top"
+                                                      style="padding:24px 30px 0px 30px;background-color:#fffffe;"
+                                                      bgcolor="#fffffe" class="padlr24b0 dm_bg_darkgrey">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                          <tr>
+                                                            <td align="left" valign="top"
+                                                              style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:24px;line-height:32px;font-weight:700;font-style:normal;letter-spacing:-1%;padding-bottom:8px;"
+                                                              class="font22 ln28 dm_txt_white">
+                                                              We hope you love it!
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td align="left" valign="top"
+                                                              style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:0%;"
+                                                              class="font14 ln20 dm_txt_white">
+                                                              Waiting for more items? We’ll email you with updates.
+
+
+                                                            </td>
+                                                          </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        </tbody>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </th>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+      data-lock-type="editable">
+      <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+        <tbody>
+          <tr role="presentation">
+            <th class="colspan1">
+              <div data-params-shared-vars="{}" data-fragment-legacy="true"
+                data-source-uuid="eff1f54d-b5d8-4628-bf1a-15fa861053a3"
+                data-fragment-ref="ajo:1194f01d-dd6c-41af-996e-8d2336b75cd9" data-contenteditable="false">
+                <table align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
+                  <tbody>
+                    <tr role="presentation">
+                      <th class="colspan1"> <span style="display:none;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </span>
+
+
+
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td align="left" valign="top"><!--[if mso]>
+				<table cellpadding="0" cellspacing="0" border="0" width="100%" class="">
+					<tr>
+						<td style="null">
+				<![endif]-->
+                                <div class="is-desktop-visible hide" data-contenteditable="true">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top"
+                                          style="background-color:#fffffe;padding:24px 30px 0 30px;"
+                                          class="padlr24b0 dm_bg_darkgrey" bgcolor="#fffffe">
+                                          <a href="https://www.macys.com/purchases/online?o=jl7gmfQTwZHYkKXCbuQuGPzQj50DaaDyNQThLZD39UpYHNurE1%2BnEhB6qodkC%2BnV&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-orderdetails-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=MB&m_l=orderdetails&m_s=OES-UOP5441BMCOM051126"
+                                            target="_blank" style="text-decoration:none;" class data-nl-type="DEEPLINK">
+                                            <img width="628" height="auto"
+                                              style="display:block;border:0px;font-family:Arial, &quot;Helvetica Neue&quot;, sans-serif, Arial;color:rgb(0, 0, 0);height:auto;width:100%;max-width:100%;"
+                                              alt="Tracker"
+                                              src="https://cdn.notify.macys.com/69d9d690-8c2a-4fde-99d6-908c2acfdedb/urn:aaid:aem:fb5c4939-59ad-40e0-ac95-0b9d6f9595db/oak:1.0::ci:8ac444cddd2dafead35284a3aba6b3a1/b0d6330c-528d-301b-815a-236383c7ba67">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div><!--[if mso]-->
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table><!--[endif]----><!--[if !mso]><!-- -->
+                        <div class="is-mobile-visible block" style="display:none;" data-contenteditable="true">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td align="left" valign="top" style="padding:24px 20px 0 20px;background-color:#fffffe;"
+                                  bgcolor="#fffffe" class="dm_bg_darkgrey">
+                                  <a href="https://www.macys.com/purchases/online?o=jl7gmfQTwZHYkKXCbuQuGPzQj50DaaDyNQThLZD39UpYHNurE1%2BnEhB6qodkC%2BnV&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-orderdetails-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=MB&m_l=orderdetails&m_s=OES-UOP5441BMCOM051126"
+                                    target="_blank" style="text-decoration:none;" class data-nl-type="DEEPLINK">
+                                    <img width="100%" height="auto"
+                                      style="display:block;border:0px;font-family:Arial, &quot;Helvetica Neue&quot;, sans-serif, Arial;color:rgb(0, 0, 0);height:auto;width:100%;"
+                                      alt="Tracker"
+                                      src="https://cdn.notify.macys.com/69d9d690-8c2a-4fde-99d6-908c2acfdedb/urn:aaid:aem:2a3d6d50-48e4-4ad5-b8fa-29c6527a6fdf/oak:1.0::ci:ec5378fae3b6cf278e73ab5045656520/da47027f-434e-398c-84a2-83aba3dd1827">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div><!--<![endif]-->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="dm_bg_darkgrey">
+                          <tbody>
+                            <tr>
+                              <td align="left" valign="top" style="padding:0 30px;background-color:#ffffff;"
+                                class="padtb0lr20 dm_bg_darkgrey" bgcolor="#fffffe">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tbody>
+                                    <tr>
+
+                                      <td align="left" valign="top"
+                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:0%;"
+                                        class="font14 ln20 dm_txt_white" width="33%">Processing</td>
+                                      <td align="center" valign="top"
+                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:0%;"
+                                        class="font14 ln20 dm_txt_white" width="34%">Ready for pickup</td>
+                                      <td align="right" valign="top"
+                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:0%;"
+                                        class="font14 ln20 dm_txt_white" width="33%">Picked up</td>
+
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+              </div>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="walkme-player"
+      class="walkme-direction-ltr walkme-player walkme-zambezi walkme-california walkme-theme-white-blue walkme-position-major-bottom walkme-position-minor-right_corner walkme-to-destroy walkme-override walkme-css-reset walkme-language-default"
+      role="button" aria-label="Walk Me Through"
+      style="-moz-box-sizing: content-box; -webkit-box-sizing: content-box; background: none; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABMCAMAAADN28B/AAABAlBMVEUAAABIkf8cf+46jMUmgt4Xe+YXfeoVd+UVeeMYeeYTd+MVeuUffuARdeATduMaduEVduESd+ITd+ARduERduERdeEUduITd+ITd+MRdeERduASduMSdeMTeOIUduASeuERduERduESdeMTd+ISeOQTduESduESd+IQdeERduARdeIRduARduISdeISdeMSdeESd+ITd+MSduMSc+ERduASdeESduQRdeD///8TduEUduIXd+Q9jufC3PgoguX3+/7x9v3p8vwtheUceuPZ6fqv0fVuqu1bn+okf+T7/P671/dUm+pOmOk0iebM4fm31PajyvOVwfKHufB/tO9lpepFk+cQbhQOAAAAN3RSTlMAAwgEBhQODCMfGxgQ+icTLkkl8v3MPjpO2L+BVDUxKsanekM3Nq9G7ObT0befmZBsX1oq4X5v+obVJwAAA/ZJREFUWMPt2MeS00AQBmCUR8lKthxkSc7eHIHBkjHBbF4yvP+roBk4AO6WpS2K4sB/si9fdY96RuHR//yFCD/lD2CSJMvij8iyJAFoHU0WlU40bD3ese2dx61h1FFE+aEm0/TRwKa/xB6MdGY+iPMObArEPvAYWZvrDCiaAULinujPaGlmvlhdFGStH9AtCfqaLFRtV3vSpFvTfKIBbYPtKkNaKUMFaBvwSItWTIswcZtnAh4qmttESbSGtEaGliiVX181orUSqbJQOi9nzXpg80zDRUHS0oDWTJBqkoAv4IzWzowtI7aAffqA9LFlLCYanZjV8vUCnZ1ivmsVuP7y/MWzIu8+X+MlwgX2KJDlG6bxvPoCgj24RFl1ofP06ubZT7mEQNsFSxSdCKrvJS/t4uPFK/bjZglOtyMCoAZt4sV7xjxf5Xm+es5+XizALa0BPVsNoOO3DHn5OmdZsWJfQKDdsORN0DkFCrxi4Mc8z7Isz3mJ4PicOuImaB4D4D0r6m2eLRaF+Ib9WUPgsaltgsYMALNiDT8xr/h5x4cxg8CZoW6C+j4EZkteX/FzyS/zZxDc1y0A3KWgmHGP3r/k1zsHwV3d2QRJAIEsjLjju+/Na9CjAQFA36ZQOEevfng5DNq+sgmyMcSy+t7vNffAQYTAAPUWH5h3uy48GAxAcBcHX7F+cY/uguAe6l3zgwb36B4E+gcouLphey7LMI8eQBeFHKFgVuziixz36BE0NvoJCi7Wl5fXJR490SGwbaNglvMFxGK3oa1nuPtoicsPt1e4R/dd6HAw02OKZM3m+h4Hj1Po+HKI16RwLtHDn6fpEeiAtfRkgHT8lYGfUHCQ6JYM3aTSE+yi3BY3vhUKnqTgTUp0yHQPu8rLO3wM96YEvI3KquE+pSzoMQvnqWuAN3pJVPxJj9ZOb+LDjyICK7FT/4GzgxTISyTxqO4j8SgmvECkxPP2UT3wqH3OCkQfiXU37NVawNDVLVHCH9oVksy71b3uPCGKJgklrxWmH/e7lb1+7Jta+YuKajamXq9iv960YaplHl9GozEdH1Z5vT0cTxsGW8CyCFyMx9H2F/BoHHOPF1gumn4Sng3KvcFZmPgm4EGiahK3PR91ca47mrddYqqAB38iUPTzOPRGrSa4eK2RF8bnugJ8IkCnxzGIOwm908Pu7x+CuoenXjhxieGA84K3rRi+Ow3HXj8a9ro7gW0HO93eMOp743Dq+oaCtIu3zUiSJpNwPPe8Do/nzcfhJEkJ45B2y0nH1EnqJvGkzTOJEzcluukAXEVSsxzT0HXiN4r4RNcN07E0gKtIclNVLUfhcSxV5Zrwr3yQhD6Z/s/fyDfLGXsydjHozgAAAABJRU5ErkJggg==') !important; background-position: center !important; background-repeat: no-repeat !important; background-size: 70px 65px !important; border-bottom: none !important; border-collapse: inherit !important; border-left: none !important; border-right: none !important; border-spacing: 1px 1px !important; border-top: none !important; bottom: 0px; box-sizing: content-box; color: #eb15e2 !important; cursor: pointer !important; direction: ltr !important; display: none; float: none !important; height: 55px !important; line-height: normal !important; margin: 30.5px !important; overflow: visible !important; padding: 0 !important; position: fixed !important; right: 0px !important; table-layout: auto !important; text-align: left !important; text-shadow: none !important; transition: none !important; vertical-align: middle !important; width: 55px !important; z-index: 2147483647 !important;">
+    </div><iframe id="walkme-native-functions" class="walkme-to-remove"
+      style="display:none;position:absolute;visibility:hidden;z-index:-2147483647;"></iframe></th>
+    </tr>
+    </tbody>
+    </table>
+  </div>
+  </th>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <div data-params-shared-vars="{}" data-fragment-legacy="true"
+              data-source-uuid="a7381d50-e5b8-4bbc-9f79-5a46db13d374"
+              data-fragment-ref="ajo:563b472c-3785-4972-a4b2-94dd523ebdfe" data-contenteditable="false">
+              <table align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+                      <div class="acr-fragment is-locked" data-fragment-id="ajo:49eb6f82-56a1-4666-8b0a-d475c28ef300">
+                        <table align="center" cellpadding="0" cellspacing="0" border="0"
+                          style="width: 100%; table-layout: fixed;">
+                          <tbody>
+                            <tr role="presentation">
+                              <th class="colspan1">
+                                <div class="acr-tmp-component" data-source-uuid="b24161b6-b599-49de-8a7c-db3879ce5b55"
+                                  data-contenteditable="true" data-tmp-component-id="html">
+                                  <span style="display:none;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  </span>
+                                  <!-- Start Order Details Section -->
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top"
+                                          style="padding:24px 30px 24px 30px;background-color:#fffffe;"
+                                          bgcolor="#fffffe" class="pad2420 dm_bg_darkgrey">
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+
+
+                                              <tr>
+                                                <td align="left" valign="top"
+                                                  style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:-1%;word-break:break-all;"
+                                                  class="font14 ln19 dm_txt_white">
+                                                  <strong>Order #:</strong> <a
+                                                    style="color:#000000;text-decoration:none;"
+                                                    class="dm_txt_white">979262274544_1B_AMEX MSTORE</a>
+                                                </td>
+                                              </tr>
+
+
+
+
+
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable" data-source-uuid="6293c973-f31e-4fd4-877e-c275c5e9984e">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <div data-params-shared-vars="{}" data-fragment-legacy="true"
+              data-source-uuid="0526f386-122e-4fc1-aade-dca3adebaed2"
+              data-fragment-ref="ajo:81f57520-ddfc-4ba2-864d-d8c24452941a" data-contenteditable="false">
+              <table align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+                      <div class="acr-fragment is-locked" data-fragment-id="ajo:6598193c-b31e-46e0-90e4-7859de42423e">
+                        <table align="center" cellpadding="0" cellspacing="0" border="0"
+                          style="width: 100%; table-layout: fixed;">
+                          <tbody>
+                            <tr role="presentation">
+                              <th class="colspan1">
+                                <div class="acr-tmp-component" data-source-uuid="24ac8190-66f3-49dc-9477-15bf6d95e374"
+                                  data-contenteditable="true" data-tmp-component-id="html">
+                                  <span style="display:none;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  </span>
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td align="left" valign="top"
+                                          style="padding:0px 30px 24px 30px;background-color:#fffffe;" bgcolor="#fffffe"
+                                          class="padt0lr20 dm_bg_darkgrey">
+                                          <table border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center" bgcolor="#000000"
+                                                  style="background:#000000;border-radius:5px;padding:15px 20px;text-align:center;mso-padding-alt:15px 20px 15px 20px;"
+                                                  class="btn_white">
+
+
+                                                  <a rel="opener" target="_blank"
+                                                    href="https://www.macys.com/purchases/online?o=jl7gmfQTwZHYkKXCbuQuGPzQj50DaaDyNQThLZD39UpYHNurE1%2BnEhB6qodkC%2BnV&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-orderdetails-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=MB&m_l=orderdetails&m_s=OES-UOP5441BMCOM051126"
+                                                    style="font-family:Arial, sans-serif;font-size:14px;font-weight:700;color:#ffffff;text-decoration:none;display:inline;line-height:20px;"
+                                                    class="width_auto btn_white" data-nl-type="DEEPLINK">
+                                                    Order details
+                                                  </a>
+
+
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <div data-params-shared-vars="{}" data-fragment-legacy="true"
+              data-source-uuid="8cb7836d-ec34-4db5-8573-ad99efca2395"
+              data-fragment-ref="ajo:673d134d-2921-4127-bb93-d1043c237612" data-contenteditable="false">
+              <table align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;table-layout:fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}</style><![endif]-->
+                      <div class="acr-fragment is-locked" data-fragment-id="ajo:b25f707b-23e3-4861-a5b4-5392fc9f3fc5">
+                        <table align="center" cellpadding="0" cellspacing="0" border="0"
+                          style="width: 100%; table-layout: fixed;">
+                          <tbody>
+                            <tr role="presentation">
+                              <th class="colspan1">
+                                <div class="acr-tmp-component" data-source-uuid="f4b9e4f2-575b-407b-bfcc-fc0efb348bc1"
+                                  data-contenteditable="true" data-tmp-component-id="html">
+                                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                    style="line-height:8px;font-size:8px;background-color:#F8F8F8;" class="dg_bg_grey">
+                                    <tbody>
+                                      <tr>
+                                        <td height="8" style="line-height:8px;font-size:1px;background-color:#F8F8F8;"
+                                          class="dg_bg_grey">&nbsp;
+
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+            <div class="acr-fragment is-locked" data-fragment-id="ajo:af3c7235-b14f-45aa-a269-b39c8c863b74">
+              <table align="center" cellpadding="0" cellspacing="0" border="0"
+                style="width: 100%; table-layout: fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <div class="acr-tmp-component" data-source-uuid="16db1313-a61f-4e20-9ec1-e2a7c154bdbc"
+                        data-contenteditable="true" data-tmp-component-id="html"><span style="display:none;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </span>
+
+
+
+
+                        <span style="display:none;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </span>
+
+
+                        <span style="display:none;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </span>
+
+
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+
+                            <tr>
+                              <td align="left" valign="top" style="padding:24px 30px 0px 30px;background-color:#fffffe;"
+                                bgcolor="#fffffe" class="padlr24b0 dm_bg_darkgrey">
+                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td align="left" valign="top" style="padding:16px;background-color:#F8F8F8;"
+                                        bgcolor="#F8F8F8" class="dm_bg_darkgrey">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tbody>
+
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:20px;line-height:25px;font-weight:700;font-style:normal;letter-spacing:-1%;padding-bottom:8px;"
+                                                class="font18 ln23 dm_txt_white">Picked up: Tue. Jun. 09</td>
+                                            </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="background-color:#F8F8F8;padding:16px 0px 0px 0px;"
+                                                bgcolor="#F8F8F8" class="dm_bg_darkgrey">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tbody>
+
+
+
+
+
+
+
+
+
+                                                    <tr>
+                                                      <td align="left" valign="top" style="padding-bottom:16px;">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="left" valign="top">
+                                                                <table width="100%" border="0" cellspacing="0"
+                                                                  cellpadding="0">
+                                                                  <tbody>
+                                                                    <tr>
+
+                                                                      <td align="left" valign="top" width="24"><img
+                                                                          width="24"
+                                                                          style="display: block; border: 0px; font-family: Arial, &quot;Helvetica Neue&quot;, sans-serif, Arial; color: rgb(0, 0, 0);"
+                                                                          alt="img" data-medialibrary-source="aem"
+                                                                          height="auto" class
+                                                                          src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:bceed1fc-9c05-4dc1-90cc-36854719c425/oak:1.0::ci:62c634b83e7fbf8a66f7d3e601bedea3/670c1468-3b41-3fe4-9960-4035da3fa76c">
+                                                                      </td>
+
+                                                                      <td align="left" valign="top"
+                                                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:0%;padding-left:8px;"
+                                                                        class="font14 ln20 dm_txt_white"><strong>Where:
+                                                                        </strong>Macy&#x27;s Ala Moana Center </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+
+
+
+
+
+
+
+
+
+                                                  </tbody>
+
+                                                </table>
+                                              </td>
+                                            </tr>
+
+                                          </tbody>
+
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+
+                        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td align="left" valign="top"
+                                style="padding:24px 30px 24px 30px;background-color:#fffffe;" bgcolor="#fffffe"
+                                class="pad2420 dm_bg_darkgrey">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tbody>
+                                    <tr><!-- product Image -->
+                                      <td align="left" valign="top" width="139" height="auto"
+                                        class="height134 width114"> <a
+                                          href="https://www.macys.com/shop/product/kenneth-cole-reaction-mens-techni-cole-suit-separate-slim-fit-suit-jacket?ID=11642459&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-11642459-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=11642459&m_s=OES-UOP5441BMCOM051126"
+                                          target="_blank" style="text-decoration:none;"> <img width="139"
+                                            style="display:block;border:0px;font-family:Arial, &quot;Helvetica Neue&quot;, sans-serif, Arial;color:rgb(0, 0, 0);"
+                                            class="width114 height134" data-nl-type="DEEPLINK"
+                                            data-tracking-type="DEEPLINK" id="acr-link-ID-itemCard" alt="img"
+                                            src="http://slimages.macys.com/is/image/MCY/products/0/optimized/22985860_fpx.tif?bgc&#x3D;255,255,255&amp;wid&#x3D;700&amp;qlt&#x3D;100&amp;layer&#x3D;comp&amp;op_sharpen&#x3D;0&amp;resMode&#x3D;bicub&amp;op_usm&#x3D;0.7,1.0,0.5,0&amp;fmt&#x3D;png"
+                                            height="163"> </a> </td>
+                                      <td align="left" valign="top" width="24" class="width16"></td>
+                                      <td align="left" valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tbody>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;"
+                                                class="dm_txt_white "><!--[if mso]>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="">
+<tr>
+<td style="null" >
+<![endif]-->
+                                                <div class="is-desktop-visible hide" contenteditable="true">
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left" valign="top"
+                                                          style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;"
+                                                          class="dm_txt_white "> <a
+                                                            href="https://www.macys.com/shop/product/kenneth-cole-reaction-mens-techni-cole-suit-separate-slim-fit-suit-jacket?ID=11642459&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-11642459-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=11642459&m_s=OES-UOP5441BMCOM051126"
+                                                            target="_blank"
+                                                            style="text-decoration:none;ont-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;"
+                                                            class="dm_txt_white" data-nl-type="DEEPLINK"
+                                                            id="acr-link-ID-itemCard">Kenneth Cole Reaction Men&#x27;s
+                                                            Techni-Cole Suit Separates Slim-Fit Suit Jacket</a> </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </div>
+                                                <!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]--><!--[if !mso]><!-- -->
+                                                <div class="is-mobile-visible" style="display:none;"
+                                                  contenteditable="true">
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left" valign="top"
+                                                          style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                          class="dm_txt_white ">
+                                                          <a href="https://www.macys.com/shop/product/kenneth-cole-reaction-mens-techni-cole-suit-separate-slim-fit-suit-jacket?ID=11642459&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-11642459-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=11642459&m_s=OES-UOP5441BMCOM051126"
+                                                            target="_blank"
+                                                            style="text-decoration:none;ont-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                            class="dm_txt_white" data-nl-type="DEEPLINK"
+                                                            id="acr-link-ID-itemCard">Kenneth Cole Reaction Men&#x27;s
+                                                            Techni-Cole Suit Separates Sli...</a>
+
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </div><!--<![endif]-->
+                                              </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;padding-top:8px;"
+                                                class="dm_txt_white font12 ln18">38R, Black</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                class="dm_txt_white font12 ln18">Qty: 1</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                class="dm_txt_white font12 ln18">UPC: 628735331956</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;padding-top:16px;padding-bottom:2px;"
+                                                class="dm_txt_white font14 ln20">
+
+                                                <!-- effective < original: show effective (red) + struck original --><span
+                                                  style="color:#E01A2B;font-weight:bold;"
+                                                  class="dm_txt_red font14 ln20"> $145.00
+                                                </span> <span
+                                                  style="text-decoration:line-through;font-size:14px;line-height:20px;font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;"
+                                                  class="font12 ln18 dm_txt_white"> $360.00</span>
+                                                </span>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:normal;"
+                                                class="dm_txt_white font12 ln18">
+
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!--section divider starts-->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fffffe"
+                          style="background-color:#fffffe;">
+                          <tbody>
+                            <tr>
+                              <td align="center" valign="top" style="padding:0px 30px;" class="dg_bg_grey padtb0lr20">
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                  style="line-height:1px;font-size:1px;background-color:#C0C0C0;" class="dg_bg_grey">
+                                  <tbody>
+                                    <tr>
+                                      <td height="1" style="line-height:1px;font-size:1px;background-color:#C0C0C0;"
+                                        class="dg_bg_grey"></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <!--section divider ends-->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td align="left" valign="top"
+                                style="padding:24px 30px 24px 30px;background-color:#fffffe;" bgcolor="#fffffe"
+                                class="pad2420 dm_bg_darkgrey">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tbody>
+                                    <tr><!-- product Image -->
+                                      <td align="left" valign="top" width="139" height="auto"
+                                        class="height134 width114"> <a
+                                          href="https://www.macys.com/shop/product/kenneth-cole-reaction-mens-techni-cole-suit-separate-slim-fit-pants?ID=11642400&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-11642400-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=11642400&m_s=OES-UOP5441BMCOM051126"
+                                          target="_blank" style="text-decoration:none;"> <img width="139"
+                                            style="display:block;border:0px;font-family:Arial, &quot;Helvetica Neue&quot;, sans-serif, Arial;color:rgb(0, 0, 0);"
+                                            class="width114 height134" data-nl-type="DEEPLINK"
+                                            data-tracking-type="DEEPLINK" id="acr-link-ID-itemCard" alt="img"
+                                            src="http://slimages.macys.com/is/image/MCY/products/0/optimized/22985920_fpx.tif?bgc&#x3D;255,255,255&amp;wid&#x3D;700&amp;qlt&#x3D;100&amp;layer&#x3D;comp&amp;op_sharpen&#x3D;0&amp;resMode&#x3D;bicub&amp;op_usm&#x3D;0.7,1.0,0.5,0&amp;fmt&#x3D;png"
+                                            height="163"> </a> </td>
+                                      <td align="left" valign="top" width="24" class="width16"></td>
+                                      <td align="left" valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tbody>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;"
+                                                class="dm_txt_white "><!--[if mso]>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="">
+<tr>
+<td style="null" >
+<![endif]-->
+                                                <div class="is-desktop-visible hide" contenteditable="true">
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left" valign="top"
+                                                          style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;"
+                                                          class="dm_txt_white "> <a
+                                                            href="https://www.macys.com/shop/product/kenneth-cole-reaction-mens-techni-cole-suit-separate-slim-fit-pants?ID=11642400&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-11642400-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=11642400&m_s=OES-UOP5441BMCOM051126"
+                                                            target="_blank"
+                                                            style="text-decoration:none;ont-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;"
+                                                            class="dm_txt_white" data-nl-type="DEEPLINK"
+                                                            id="acr-link-ID-itemCard">Kenneth Cole Reaction Men&#x27;s
+                                                            Techni-Cole Suit Separates Slim-Fit Pants</a> </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </div>
+                                                <!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]--><!--[if !mso]><!-- -->
+                                                <div class="is-mobile-visible" style="display:none;"
+                                                  contenteditable="true">
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left" valign="top"
+                                                          style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                          class="dm_txt_white ">
+                                                          <a href="https://www.macys.com/shop/product/kenneth-cole-reaction-mens-techni-cole-suit-separate-slim-fit-pants?ID=11642400&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-11642400-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=11642400&m_s=OES-UOP5441BMCOM051126"
+                                                            target="_blank"
+                                                            style="text-decoration:none;ont-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                            class="dm_txt_white" data-nl-type="DEEPLINK"
+                                                            id="acr-link-ID-itemCard">Kenneth Cole Reaction Men&#x27;s
+                                                            Techni-Cole Suit Separates Sli...</a>
+
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </div><!--<![endif]-->
+                                              </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;padding-top:8px;"
+                                                class="dm_txt_white font12 ln18">34x30, Black</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                class="dm_txt_white font12 ln18">Qty: 1</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                class="dm_txt_white font12 ln18">UPC: 628735332182</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;padding-top:16px;padding-bottom:2px;"
+                                                class="dm_txt_white font14 ln20">
+
+                                                <!-- effective < original: show effective (red) + struck original --><span
+                                                  style="color:#E01A2B;font-weight:bold;"
+                                                  class="dm_txt_red font14 ln20"> $54.99
+                                                </span> <span
+                                                  style="text-decoration:line-through;font-size:14px;line-height:20px;font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;"
+                                                  class="font12 ln18 dm_txt_white"> $135.00</span>
+                                                </span>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:normal;"
+                                                class="dm_txt_white font12 ln18">
+
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!--section divider starts-->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fffffe"
+                          style="background-color:#fffffe;">
+                          <tbody>
+                            <tr>
+                              <td align="center" valign="top" style="padding:0px 30px;" class="dg_bg_grey padtb0lr20">
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                  style="line-height:1px;font-size:1px;background-color:#C0C0C0;" class="dg_bg_grey">
+                                  <tbody>
+                                    <tr>
+                                      <td height="1" style="line-height:1px;font-size:1px;background-color:#C0C0C0;"
+                                        class="dg_bg_grey"></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <!--section divider ends-->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td align="left" valign="top"
+                                style="padding:24px 30px 24px 30px;background-color:#fffffe;" bgcolor="#fffffe"
+                                class="pad2420 dm_bg_darkgrey">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tbody>
+                                    <tr><!-- product Image -->
+                                      <td align="left" valign="top" width="139" height="auto"
+                                        class="height134 width114"> <a
+                                          href="https://www.macys.com/shop/product/donna-karan-new-york-womens-cowl-neck-cap-sleeve-top?ID=17614253&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-17614253-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=17614253&m_s=OES-UOP5441BMCOM051126"
+                                          target="_blank" style="text-decoration:none;"> <img width="139"
+                                            style="display:block;border:0px;font-family:Arial, &quot;Helvetica Neue&quot;, sans-serif, Arial;color:rgb(0, 0, 0);"
+                                            class="width114 height134" data-nl-type="DEEPLINK"
+                                            data-tracking-type="DEEPLINK" id="acr-link-ID-itemCard" alt="img"
+                                            src="http://slimages.macys.com/is/image/MCY/products/9/optimized/26860659_fpx.tif?bgc&#x3D;255,255,255&amp;wid&#x3D;700&amp;qlt&#x3D;100&amp;layer&#x3D;comp&amp;op_sharpen&#x3D;0&amp;resMode&#x3D;bicub&amp;op_usm&#x3D;0.7,1.0,0.5,0&amp;fmt&#x3D;png"
+                                            height="163"> </a> </td>
+                                      <td align="left" valign="top" width="24" class="width16"></td>
+                                      <td align="left" valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tbody>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;"
+                                                class="dm_txt_white "><!--[if mso]>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="">
+<tr>
+<td style="null" >
+<![endif]-->
+                                                <div class="is-desktop-visible hide" contenteditable="true">
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left" valign="top"
+                                                          style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;"
+                                                          class="dm_txt_white "> <a
+                                                            href="https://www.macys.com/shop/product/donna-karan-new-york-womens-cowl-neck-cap-sleeve-top?ID=17614253&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-17614253-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=17614253&m_s=OES-UOP5441BMCOM051126"
+                                                            target="_blank"
+                                                            style="text-decoration:none;ont-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;"
+                                                            class="dm_txt_white" data-nl-type="DEEPLINK"
+                                                            id="acr-link-ID-itemCard">Donna Karan New York Women&#x27;s
+                                                            Cowl-Neck Cap-Sleeve Top</a> </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </div>
+                                                <!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]--><!--[if !mso]><!-- -->
+                                                <div class="is-mobile-visible" style="display:none;"
+                                                  contenteditable="true">
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left" valign="top"
+                                                          style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                          class="dm_txt_white ">
+                                                          <a href="https://www.macys.com/shop/product/donna-karan-new-york-womens-cowl-neck-cap-sleeve-top?ID=17614253&cm_mmc=OpsEmail-_-544_bops_item_picked_up-_-17614253-_-MB&m_sc=em&m_sb=OpsEmail&m_tp=1B&m_cn=544_bops_item_picked_up&m_pi=ID&m_l=17614253&m_s=OES-UOP5441BMCOM051126"
+                                                            target="_blank"
+                                                            style="text-decoration:none;ont-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                            class="dm_txt_white" data-nl-type="DEEPLINK"
+                                                            id="acr-link-ID-itemCard">Donna Karan New York Women&#x27;s
+                                                            Cowl-Neck Cap-Sleeve Top</a>
+
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </div><!--<![endif]-->
+                                              </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;padding-top:8px;"
+                                                class="dm_txt_white font12 ln18">M, Black</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                class="dm_txt_white font12 ln18">Qty: 1</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:20px;"
+                                                class="dm_txt_white font12 ln18">UPC: 755404099333</td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;text-decoration:none;font-weight:400;font-size:16px;line-height:22px;padding-top:16px;padding-bottom:2px;"
+                                                class="dm_txt_white font14 ln20">
+
+                                                <!-- effective >= original (covers equal and greater): show only original --><span
+                                                  style="color:#000000;font-weight:bold;"
+                                                  class="dm_txt_white">$69.00</span>
+
+                                                </span>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;text-decoration:none;font-weight:400;font-size:14px;line-height:normal;"
+                                                class="dm_txt_white font12 ln18">
+
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+
+
+
+
+
+
+
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}</style><![endif]-->
+            <div class="acr-fragment is-locked" data-fragment-id="ajo:b25f707b-23e3-4861-a5b4-5392fc9f3fc5">
+              <table align="center" cellpadding="0" cellspacing="0" border="0"
+                style="width: 100%; table-layout: fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <div class="acr-tmp-component" data-source-uuid="f4b9e4f2-575b-407b-bfcc-fc0efb348bc1"
+                        data-contenteditable="true" data-tmp-component-id="html">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                          style="line-height:8px;font-size:8px;background-color:#F8F8F8;" class="dg_bg_grey">
+                          <tbody>
+                            <tr>
+                              <td height="8" style="line-height:8px;font-size:1px;background-color:#F8F8F8;"
+                                class="dg_bg_grey">&nbsp;
+
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+            <div class="acr-fragment is-locked" data-fragment-id="ajo:4a2474d6-a3c6-4ea8-b47a-6c60676d5552">
+              <table align="center" cellpadding="0" cellspacing="0" border="0"
+                style="width: 100%; table-layout: fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <div class="acr-tmp-component" data-source-uuid="21611431-55ef-4046-a469-e6df7ab9553e"
+                        data-contenteditable="true" data-tmp-component-id="html">
+
+
+
+
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+            <div class="acr-fragment is-locked" data-fragment-id="ajo:29377e89-7e72-4aaa-9a49-6f7f9ea0070b">
+              <table align="center" cellpadding="0" cellspacing="0" border="0"
+                style="width: 100%; table-layout: fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <div class="acr-tmp-component" data-source-uuid="bb70bbda-41fb-40c4-89c0-8f121232cefe"
+                        data-contenteditable="true" data-tmp-component-id="html">
+                        <span style="display:none;">
+
+
+
+
+
+
+
+
+                        </span>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td align="left" valign="top"
+                                style="padding:24px 30px 24px 30px;background-color:#fffffe;" bgcolor="#fffffe"
+                                class="pad2420 dm_bg_darkgrey">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <a
+                                          href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.kfZVx_LkMBL6PJ_e7epA_ojeTCUXLlif8Zspbv8AbSTGCpP7YWu4GmHCdHn5Gys8kn4IpQa_NyGa0TaffI6n_p0QCbVkSUhpAjgph8zOtk4nOmD6a97d0Fyf5sADerESPCNVmoh2b7RN8rjeCv7T4C8VwgC8aX4Ckl6us4Kt8jFsOZgv6nKiriV9gsv7F3bDP-cD-6hTeymXcxQFWE7e8ppAKPcJxZnF04AZAReSUorJ9oSkdHlxyB-ddW_H45OLpSkS2fW5uzYSE3j9CvzBHOWOeZEykuta-tKTgtvBYVoed0GrtB99IKi1RT1QE3Ojarm6V9jBgFbh2iulveC87cjk4fS3Qjcd0IPZeILLKRkkMRKibDO2AbUpAIHxD0jZR83WdQf9cqyUY9E4g8ysFuwjopU-I_fm5fVB_qyajdKe_G73A_4M0fmt8lHv8jqkofwQz8Svww656l8zMk8lVgU69wKnKo8JwKh-iCPAvgxGsocuhHxkrk5AS6Bn_R1X1L1gdSRI_8C1EAxe-vwR7z7tCKWQAtBB3n9imv1aZGJLXVfaNVQjsqFgXlcF2lPbkezobm1mdk6Yb9N3IJu0HCcCpDVqGx-Ra7Kv_yydQoV1WU64MzdqKpmv2ZYIueMVpZEPq9sjaDd1_gIye1KoNyvKJ0Blu1cqNnhTlMMq3m4n4BuTc-OQDmwPfMACGMwuvQf7tfVGeBmClHWLq6FNIFSBRReHRtj5K21tVPAvFF3XIdR-bQDVRot99-CZbpGy-LfX5x5SBgr5MVuWwCXD-FDQOb777tZzzS-CQO-w9cnFNuxPgdAame7kA6LXlg&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a0edbb0339035112efd144e&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">
+                                          <img border="0" style="display: block;" alt="App download"
+                                            data-medialibrary-source="aem" width="628" class="width100pc is-highlight"
+                                            height="auto"
+                                            src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:c60dec67-f8b8-493c-b463-45a9e9834a73/oak:1.0::ci:4007bb20f9d828d7fad5cfda016bf27d/b499e78a-b7f4-3dc4-a09b-2c821811f7d9"></a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table align="center" cellpadding="0" cellspacing="0" border="0"
+                          style="width:100%;table-layout:fixed;">
+                          <tbody>
+                            <tr role="presentation">
+                              <th class="colspan1">
+                                <div class="acr-tmp-component" data-source-uuid="604a09f4-6d32-46c5-ba46-dab534aa59c3"
+                                  data-unlocked-styles data-contenteditable="true" data-tmp-component-id="html">
+                                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                    style="line-height:8px;font-size:8px;background-color:#F8F8F8;" class="dg_bg_grey">
+                                    <tbody>
+                                      <tr>
+                                        <td height="8" style="line-height:8px;font-size:1px;background-color:#F8F8F8;"
+                                          class="dg_bg_grey">&nbsp;
+
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+            <div class="acr-fragment is-locked" data-fragment-id="ajo:68fc1fa4-a64d-4d54-b62d-1edfa45664f7">
+              <table align="center" cellpadding="0" cellspacing="0" border="0"
+                style="width: 100%; table-layout: fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <div class="acr-tmp-component" data-source-uuid="1e08291b-8ad9-4244-8ab0-731ddecf26e1"
+                        data-contenteditable="true" data-tmp-component-id="html"> <span style="display:none;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </span>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td align="left" valign="top"
+                                style="padding:24px 30px 48px 30px;background-color:#fffffe;" bgcolor="#fffffe"
+                                class="padlr20b48 dm_bg_darkgrey">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="left" valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tbody><!-- general header question -->
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:20px;line-height:25px;font-weight:700;font-style:normal;letter-spacing:-1%;padding-bottom:8px;"
+                                                class="font18 ln23 dm_txt_white">Have questions?</td>
+                                            </tr><!-- big ticket item shipment confirmation header question -->
+
+
+
+
+                                            <!-- Out For Delivery and Delivery Confirmation and Shipping Confirmation and LateOrder-->
+
+
+                                            <!-- big ticket item shipping confirmation -->
+
+
+                                            <!-- Delivery Confirmation and Big Ticket Item Shipping Confirmation and Order Confirmation is_651 1A 1B and LateOrder -->
+
+
+
+
+
+
+                                            <!-- Shipping Confirmation - sdd order on the way and order confirmation sdd -->
+
+
+                                            <!-- shipping confirmation upsap_shipment_confirmation and upsap_package_rerouted -->
+
+
+                                            <!-- Order Confirmation 1A 1C 1L 1M -->
+
+
+                                            <!-- Order Confirmation 1P 1N -->
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 0 8px 0;"
+                                                class="font14 ln20 dm_txt_white">What can I expect from <a
+                                                  target="_blank" style="color:#000000;text-decoration:underline;"
+                                                  class="dm_txt_white" data-nl-type="DEEPLINK"
+                                                  id="acr-link-FAQs-InStorePickUpOrderInformation"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.o1Q48vdvSWadps8KkkhNTHMlzmlmx_yvqlX7Ne-gGA4u_5pl8kIgF3SJ38yHANWqr8IFus4pC9YihYmpfkYsjAXtIiOTij4vFbZTr7Dt-G6qC8IcAv_JE8AgqK-f7V1mxvDxoTQY3wsJAMQQc64UgWZ4lbQB5cbaxEaxeGK38rKQ0lca03ZMyHBF3bgyVh8wUpzqZ9-7eAraI7foXy9MwXg2CcCJirrp7zkMmFdH4T4QDNG25DjBumP59jl7da9IucDpsa9Ju4X7YSAGExvoKlRE2br_BQPA9YTfM-slPN4rEvV0PWXpeZ7j-Ywaj0seLxr9SlfM3lxYDaQ67OBKm2wb0Oi9_D7kjTPhGCTyfUPp1PQUz8WS8GVoPXw2ShrO5lYIo2dLgBoNKBvvYB7d2xjnwA9cJnWI6_B36pPDemlWvizd3HqXmvdzaNMq1-pL92uPwlxhUgYiyAonJTFeRCv7eQyfKSBnCV1aPTwf3STsXaiYrgqBV276cjUWCtGNJFgqABwnKS4zNq8EAwSiFwmRtwyJ-YVS94lnIiQ6gWjpatesTp0ohHCJXZnpyflcUs4YNBnZDA9nj2mGcc0nmxGVTrOlJuy9IdrrFc2e6oG20m2D7A7HfIBmtm_QnwL8laj7Vk4yMnwwYb92wku6shr4sdUNUr9GTZI-ff58Be4ZFYPF2U4B82UZepLbv_loLoMxZN9vCwybyqUFmQBa06uPLKJocfOre7tq_YYZy_R28UQOB0aXIB1ncGRtE0e-Zk1svH4jGmEumeUpEJzB5FmaD5QxfDFGHzbNT214nMrIFttFqkKA1LoxGA_sGdwMoCRvM0M87gDo48YFiMLjbTn5K3U&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a231ea762475d5b1b05d094&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">in-store
+                                                  pickup orders</a><a target="_blank"
+                                                  style="color:#000000;text-decoration:none;" class="dm_txt_white">?</a>
+                                              </td>
+                                            </tr>
+
+
+                                            <!-- Shipping Confirmation (not big ticket item) and Order Confirmation 1A 1C 1L 1M -->
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 0 8px 0;"
+                                                class="font14 ln20 dm_txt_white">How can I <a target="_blank"
+                                                  style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                                  data-nl-type="DEEPLINK" id="acr-link-FAQs-cs_returns"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.Ssdd13FiqPfedo3Xc_pANKB6AV8ZncFmXqStCRGK4jAmTxLqejitZOSKEeFSycl_l3zB-lH1hAG_-N3wHSqVz-ND8fL8JAXHuNrrXomoAkdPdenKCrHdz17jnkfTAaZt5tPGwt7DD7Y-v9bU2tnBiBkQF_1JYZ2pmoI7_ZxsCxOh6E3NGjs3HorEh3tO_xTrueKvhfpWi8And1iTb645v9f15DZ-retXozAaRzGt1LY0XIjyP78J_X0ahJpz6UE1fIDYhtqotE5ulz1IfUROdoGqpVqb4_256noBkXRUAYffXeRDiqycbYs9bzkBUuIykTVJy1qZPeGFjCF_SrKtWI92fMKbXGu5Qs2KJSWwzMREgbUlv5v_bC-H_cOZYKczbok6EsTcRgALylfGgZrz9HACbjJnje1FleXNydsCzBng2-BtEZaNcXBL-fyUzksHBPeVmK8hxy_wHtfbkxlCmxHDUmFLJLgr0gfooMI_qrsaA0YR3OWx6nvAY3GR5SqqPo9fvaiDP3p6Z5EHyjpYFGZQ35yjtyIUfrKOgh6_5UTTqogkH083ZwyqanuFnn2Y4Y7skuNnQXVPsoWLNf7FaqbncR3KveezVKenGCH751aRgah13L8YkwNYHkdTdiu_iDkKFj3h5Bh3Q3N_L4HPE-EiF-TDmpUBXeU4KWvvXxvdZVZTErRkcq7_sLhf2Cv8SBDHPTVC_Mykt8nkY0HTmPXOyO_GrcTyznsmg6ay8hNeCfud6tMptZcOnhXdM_L8nk8O4EM8uuXD1XsTjzPN7kzrEat6TLCrrZ1uuNZxkA&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a231ea762475d5b1b05d095&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">start
+                                                  a return</a><a target="_blank"
+                                                  style="color:#000000;text-decoration:none;" class="dm_txt_white">?</a>
+                                              </td>
+                                            </tr>
+
+
+                                            <!-- is_272_virtual_gift_card_receipt -->
+
+                                            <tr>
+                                              <td align="left" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:700;font-style:normal;letter-spacing:-1%;padding-top:16px;padding-bottom:0px;"
+                                                class="font14 ln20 dm_txt_white">Need more help?</td>
+                                            </tr>
+
+                                            <tr>
+                                              <td align="left" valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="left" valign="top" width="24" style="padding-top:8px;">
+                                                        <img class="height24 width24" alt="Chat" width="20" height="18"
+                                                          border="0" style="display: block;"
+                                                          data-medialibrary-source="aem"
+                                                          src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:291200d9-3ade-46fe-8262-586c346a4b01/oak:1.0::ci:c325c96090e6573863da984e001a551e/6c1c7176-24b2-3891-a2e0-ec30a41aa2b4">
+                                                      </td>
+                                                      <td align="left" valign="top"
+                                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:16px;line-height:22px;font-weight:400;font-style:normal;letter-spacing:0%;padding-top:8px;padding-left:8px;"
+                                                        class="font14 ln20 dm_txt_white"><a target="_blank"
+                                                          style="color:#000000;text-decoration:underline;"
+                                                          class="dm_txt_white"
+                                                          href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a231ea762475d5b1b05d098&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Chat
+                                                          with us</a> <a style="color:#000000;text-decoration:none;"
+                                                          class="dm_txt_white">24/7</a> or visit our <a target="_blank"
+                                                          style="color:#000000;text-decoration:underline;"
+                                                          class="dm_txt_white"
+                                                          href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a231ea762475d5b1b05d099&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Help
+                                                          Center</a></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+
+
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acr-structure" data-structure-id="1-1-column" data-structure-name="richtext.structure_1_1_column"
+    data-lock-type="editable">
+    <table class="structure__table" align="center" cellpadding="0" cellspacing="0" border="0" width="688">
+      <tbody>
+        <tr role="presentation">
+          <th class="colspan1">
+            <!--[if gte mso 9]><style acrite-mso-css="true">.image-container div {  display: block;}.structure__table td {  padding: 0;  border: none;}.button-container {  border: none !important;  padding: 0 !important;  margin: 0 !important;  line-height: normal !important;}.acr-structure {  margin: 0 !important;}.acr-component, .acr-tmp-component {  margin: 0 !important;  border: none !important;}.acr-fragment {  margin: 0 !important;  border: none !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66, .colspan-n {  box-sizing: border-box !important;}.acr-grid-column {  box-sizing: border-box !important;}.divider-mso-hidden {  border: none !important;}.structure__table {  mso-table-lspace: 0pt !important;  mso-table-rspace: 0pt !important;}span.preheader {  mso-hide: all;}.mso-is-desktop-hidden,.mso-is-desktop-hidden table {  mso-hide: all;}</style><![endif]-->
+            <div class="acr-fragment is-locked" data-fragment-id="ajo:31ebedfd-9787-4e59-b061-a30dbbb30e0f">
+              <table align="center" cellpadding="0" cellspacing="0" border="0"
+                style="width: 100%; table-layout: fixed;">
+                <tbody>
+                  <tr role="presentation">
+                    <th class="colspan1">
+                      <div class="acr-tmp-component" data-source-uuid="afa4edc7-1671-45e6-b609-8618e4862354" style
+                        data-contenteditable="true" data-tmp-component-id="html">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td align="left" valign="top"
+                                style="padding:48px 84px 48px 84px;background-color:#F8F8F8;" bgcolor="#F8F8F8"
+                                class="padlr20tb50new dm_bg_darkgrey">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <table width="266" border="0" cellspacing="0" cellpadding="0" class="widthauto">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" valign="middle" style="padding:0 20px;"><a
+                                                  target="_blank"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224baa8&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c"><img
+                                                    alt="Facebook" width="24"
+                                                    style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                    class="acr-light-img" height="24"
+                                                    data-medialibrary-dark-id="urn:aaid:aem:88aae0db-7771-4d7f-9013-48100691339b"
+                                                    data-mediarepo-dark-id="author-p121256-e1183812.adobeaemcloud.com"
+                                                    data-medialibrary-dark-source="aem" data-medialibrary-source="aem"
+                                                    data-dark-src="blob:https://acrites-ui-iframe.experience.adobe.net/015e0f52-a20d-4bf1-b4d2-39070f44510f"
+                                                    src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:c5c43230-7969-4b64-927a-7b4f628cfdca/oak:1.0::ci:3fcc0b810c3821b74273669f0d6d0700/e0d44b08-9a52-39e6-b237-5c8cd2de1d97">
+                                                  <div class="acr-dark-img" style="display: none;"><img alt="Facebook"
+                                                      width="24"
+                                                      style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                      class="acr-dark-img" height="24" data-medialibrary-source="aem"
+                                                      src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:88aae0db-7771-4d7f-9013-48100691339b/oak:1.0::ci:1c550257f87fedfe92e4990c08c3f288/6de450e0-d5b0-3e72-89e5-2332e8eeecf5">
+                                                  </div>
+                                                </a></td>
+                                              <td align="center" valign="middle" style="padding:0 20px;"><a
+                                                  target="_blank"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224baa9&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c"><img
+                                                    alt="Instagram" width="24"
+                                                    style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                    class="acr-light-img" height="24"
+                                                    data-medialibrary-dark-id="urn:aaid:aem:000afb1e-2c38-4bfc-a563-8ff6e73bd603"
+                                                    data-mediarepo-dark-id="author-p121256-e1183812.adobeaemcloud.com"
+                                                    data-medialibrary-dark-source="aem" data-medialibrary-source="aem"
+                                                    data-dark-src="blob:https://acrites-ui-iframe.experience.adobe.net/4da5ce30-fbf0-4d07-8ad0-acf29fa0ac9c"
+                                                    src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:7921d570-95e5-4805-9c89-d88195fb2cc9/oak:1.0::ci:bbb5a76b36a82f88383649b71b1156a9/f73912b0-cc6e-3d9e-98d6-f47b434b90f8">
+                                                  <div class="acr-dark-img" style="display: none;"><img alt="Instagram"
+                                                      width="24"
+                                                      style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                      class="acr-dark-img" height="24" data-medialibrary-source="aem"
+                                                      src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:000afb1e-2c38-4bfc-a563-8ff6e73bd603/oak:1.0::ci:7efe43afeb1e8e09e78cbcdb5919e2fa/bc046678-a4d7-3820-9235-0256a5e76c5c">
+                                                  </div>
+                                                </a></td>
+                                              <td align="center" valign="middle" style="padding:0 20px;"><a
+                                                  target="_blank"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224baaa&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c"><img
+                                                    alt="X" width="23"
+                                                    style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; max-height: 24px; height: 24px; max-width: 23px; width: 23px;"
+                                                    class="acr-light-img" height="24"
+                                                    data-medialibrary-dark-id="urn:aaid:aem:69e5b1dd-566c-46ca-bb54-1cc8b42e7ccc"
+                                                    data-mediarepo-dark-id="author-p121256-e1183812.adobeaemcloud.com"
+                                                    data-medialibrary-dark-source="aem" data-medialibrary-source="aem"
+                                                    data-dark-src="blob:https://acrites-ui-iframe.experience.adobe.net/d671aa40-479e-4ce4-83b4-89883c271c1c"
+                                                    src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:8fc59aa9-bce3-4d12-b13d-ec207d87a33f/oak:1.0::ci:dc75f52f7f772df4a8e248a5cb58cbdb/f1d80b4a-8c89-3908-bf78-ed9aadb15c9f">
+                                                  <div class="acr-dark-img" style="display: none;"><img alt="X"
+                                                      width="23"
+                                                      style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; max-height: 24px; height: 24px; max-width: 23px; width: 23px;"
+                                                      class="acr-dark-img" height="24" data-medialibrary-source="aem"
+                                                      src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:69e5b1dd-566c-46ca-bb54-1cc8b42e7ccc/oak:1.0::ci:1214055586324604cac123ac1991514a/6baabd20-485a-3ccf-af5c-1d6d3ef9885c">
+                                                  </div>
+                                                </a></td>
+                                              <td align="center" valign="middle" style="padding:0 20px;"><a
+                                                  target="_blank"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224baab&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c"><img
+                                                    alt="YouTube" width="24"
+                                                    style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                    class="acr-light-img" height="24"
+                                                    data-medialibrary-dark-id="urn:aaid:aem:49394b93-c411-481f-bcaf-7c99d3bc35da"
+                                                    data-mediarepo-dark-id="author-p121256-e1183812.adobeaemcloud.com"
+                                                    data-medialibrary-dark-source="aem" data-medialibrary-source="aem"
+                                                    data-dark-src="blob:https://acrites-ui-iframe.experience.adobe.net/871ec651-3814-405d-b9a2-f7ee8dbd781c"
+                                                    src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:2c550199-d0e9-4020-a2d6-3c95f5cd201a/oak:1.0::ci:92da0641e5bdaecd43c17c0ee8d4b3ae/87d21d84-e2c2-38c2-b135-e00a398866c3">
+                                                  <div class="acr-dark-img" style="display: none;"><img alt="YouTube"
+                                                      width="24"
+                                                      style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                      class="acr-dark-img" height="24" data-medialibrary-source="aem"
+                                                      src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:49394b93-c411-481f-bcaf-7c99d3bc35da/oak:1.0::ci:ca6b2c122da2a96b5826df3f520669a3/6720532f-127c-3db9-a9b4-512cff2cae9d">
+                                                  </div>
+                                                </a></td>
+                                              <td align="center" valign="middle" style="padding:0 20px;"><a
+                                                  target="_blank"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224baac&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c"><img
+                                                    alt="Pinterest" width="24"
+                                                    style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                    class="acr-light-img" height="24"
+                                                    data-medialibrary-dark-id="urn:aaid:aem:676f3b65-de1d-4ebc-9453-330fd66752c5"
+                                                    data-mediarepo-dark-id="author-p121256-e1183812.adobeaemcloud.com"
+                                                    data-medialibrary-dark-source="aem" data-medialibrary-source="aem"
+                                                    data-dark-src="blob:https://acrites-ui-iframe.experience.adobe.net/368d5140-3990-45e6-9ee4-541dc8b2cd11"
+                                                    src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:e541206b-8385-420e-b84c-22fa8004d82f/oak:1.0::ci:436d83edda01fcaac726354d0990fc33/35f452af-8ed9-315e-afee-acc081b4bec3">
+                                                  <div class="acr-dark-img" style="display: none;"><img alt="Pinterest"
+                                                      width="24"
+                                                      style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                      class="acr-dark-img" height="24" data-medialibrary-source="aem"
+                                                      src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:676f3b65-de1d-4ebc-9453-330fd66752c5/oak:1.0::ci:475178ba2f846b942233304b094a64bd/2b2bde7b-31ac-3a57-8668-d6bb9f3d338c">
+                                                  </div>
+                                                </a></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top" style="padding:24px 0;">
+                                        <table border="0" cellspacing="0" cellpadding="0" class="widthauto">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 8px;"
+                                                class="dm_txt_white font12 ln18"><a target="_blank"
+                                                  style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                                  data-nl-type="DEEPLINK" id="acr-link-Footer-cs_helpcenter"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224baad&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Customer
+                                                  Service</a></td>
+                                              <td align="center" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 8px;"
+                                                class="dm_txt_white font12 ln18"><a target="_blank"
+                                                  style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                                  data-nl-type="DEEPLINK" id="acr-link-Footer-storelocator"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224baae&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Store
+                                                  Locator</a></td>
+                                              <td align="center" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 8px;"
+                                                class="dm_txt_white font12 ln18"><a target="_blank"
+                                                  style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                                  data-nl-type="DEEPLINK" id="acr-link-Footer-creditgateway"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224baaf&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Macy’s
+                                                  Credit Card</a></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top"
+                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 0 24px 0;"
+                                        class="dm_txt_white font12 ln18">Regular and original prices reflect offering
+                                        prices that may not have resulted in actual sales. <a target="_blank"
+                                          style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                          data-nl-type="DEEPLINK" id="acr-link-Footer-cs_pricingpolicy"
+                                          href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224bab0&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">See
+                                          Pricing Policy.</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top"
+                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 0px 24px 0px;"
+                                        class="dm_txt_white font12 ln18">Note: If you signed up to receive email alerts
+                                        from Citibank N.A. regarding your Macy's Credit Account, you will continue to
+                                        receive these alerts even if you unsubscribe. To opt-out or change your
+                                        communication preferences regarding your Credit Account, visit <a
+                                          target="_blank" style="color:#000000;text-decoration:underline;"
+                                          class="dm_txt_white"
+                                          href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224bab1&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Macy’s
+                                          Credit Card</a>, sign into your account, and go to Manage Credit Alerts.</td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top"
+                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 0 8px 0;"
+                                        class="dm_txt_white"><span style="color:#000000;" class="dm_txt_white"> <a
+                                            href="#" style="color:#000000;text-decoration:none;"
+                                            class="dm_txt_white font12 ln18">Macys.com LLC</a></span>, <br class="block"
+                                          style="display:none;">
+                                        <a style="color:#000000;text-decoration:none;" class="dm_txt_white">151 West
+                                          34th Street, New York, NY 10001</a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top"
+                                        style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 0 24px 0;"
+                                        class="dm_txt_white font12 ln18">Macy’s Credit and Customer Service, <br
+                                          class="block" style="display:none;">
+                                        PO Box 8113, Mason, OH 45040</td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top" style="padding:0px 0 0px 0;">
+                                        <table border="0" cellspacing="0" cellpadding="0" class="widthauto">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 6px;"
+                                                class="dm_txt_white font11 ln18"><a target="_blank"
+                                                  style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                                  data-nl-type="DEEPLINK" id="acr-link-Footer-cs_shippingpolicy"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224bab2&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Shipping
+                                                  Policy</a></td>
+                                              <td align="center" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 6px;"
+                                                class="dm_txt_white font11 ln18"><a target="_blank"
+                                                  style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                                  data-nl-type="DEEPLINK" id="acr-link-Footer-cs_returnpolicy"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224bab3&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Return
+                                                  Policy</a></td>
+                                              <td align="center" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 6px;"
+                                                class="dm_txt_white font11 ln18"><a target="_blank"
+                                                  style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                                  data-nl-type="DEEPLINK" id="acr-link-Footer-cs_privacy"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd44bc319301224bab4&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Privacy
+                                                  Policy</a></td>
+                                              <td align="center" valign="top"
+                                                style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#000000;font-size:14px;line-height:20px;font-weight:400;font-style:normal;letter-spacing:0%;padding:0 6px;"
+                                                class="dm_txt_white font11 ln18"><a target="_blank"
+                                                  style="color:#000000;text-decoration:underline;" class="dm_txt_white"
+                                                  data-nl-type="DEEPLINK" id="acr-link-Footer-cs_legalnotice"
+                                                  href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/mclick?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd54bc319301224bab6&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">Legal
+                                                  Notice</a></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr><!--[if !mso]><!-- -->
+                                    <tr class="mobile-only"
+                                      style="display:none;max-height:0;overflow:hidden;mso-hide:all;">
+                                      <td align="center" valign="top" class="mobile-only"
+                                        style="display:none;max-height:0;overflow:hidden;mso-hide:all;">
+                                        <div class="mobile-only"
+                                          style="display:none;max-height:0;overflow:hidden;mso-hide:all;">
+                                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center"
+                                                  style="font-family:Arial, Helvetica Neue, sans-serif, Arial;color:#626369;font-size:16px;line-height:22px;font-weight:bold;font-style:normal;letter-spacing:0%;padding:24px 20px 24px 20px;"
+                                                  class="dm_txt_white">
+                                                  Get inspo, savings &amp; rewards all in the Macy’s app.
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="center" valign="top" style="padding:0 5px 0px 5px;">
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" valign="top">
+                                                          <a
+                                                            href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd54bc319301224bab7&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">
+                                                            <img data-medialibrary-source="aem" alt="App Store"
+                                                              width="152"
+                                                              style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                              class data-nl-type="DEEPLINK"
+                                                              data-tracking-type="DEEPLINK"
+                                                              id="acr-link-Footer-Appdownload"
+                                                              src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:f84e6fe2-fb84-4c2e-94cd-4d86b60203fb/oak:1.0::ci:cd5868323fe35efba64f613f1b505e6d/676e6114-f207-3f72-a5c0-ddd68292614a"></a>
+                                                        </td>
+                                                        <td align="center" valign="top" width="15">
+                                                          &nbsp;
+                                                        </td>
+                                                        <td align="center" valign="top">
+                                                          <a
+                                                            href="https://data.macyscominc.dev.cjmadobe.com/ee/v1/click?params=v1.gMo-475JBcEUw1FOfSlEJDlovEkFF02f7oUTgDq8--4R5VzitAJVAdwOv_EU_a8kUKPad37gT_mnMnDJ1xGOpMvZAYs58Luy9U-HDhV7VwN0vbeX8SysMp-MWJQ1vua5lPUKQ8IPoJPeAV9tWeiQmvBPcwRUcWAHBs5T_wE5iNQxGfz3ea0EOAjjgrQNi1buh7WKxEMLCCuEDBXKDT9UXwGRqHlFXJS1iBZ_KIYFIncsr0ZpVuW1okop6RV9XdiyMp74QDVt1QB58MUGMkOTd2Vw0J8Y55VOnFJh6CFxn2b7YsC7_MhPBgFghPyO42TiCMOe2QEcmqDSCls5pRafMHK45RTzyOiI8IdKSv8J94BK38mUMuY4g8c2zWzwxmyyXlqKmHqYT7QWfg49SWRSM0fCRpHebTi_Sj3XQKcoVEm2OlW4McYcjEXszqmcDZvHij2MjgCRThP7XuA4gqejls6jC_BGyENXxIxgS-a3oo6fT9bzFzjdRdEe8SMh8RYRsKDcRY7xq8ryEJppyZF7PpbZvnwRrFUTJUFb5EY7dTFweFcMxWY_sbYiq2Ut9eHtZJl9XAdaiIFpRjoOZSizwV4mQ9WSKxCMaYJxCArwaYoE9QBkvHXbRvhQWCDU4NNtWgVaBib4baRCLkea-iXWXJBAT8pJyNxUwzlf0SvVtYB09cZktBE3RMyKxiC_Ei39G9oDVYfWCQhgaaNPrCnBwAWwffKPE-rcRaHJb9le&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a267fd54bc319301224bab8&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c">
+                                                            <img data-medialibrary-source="aem" alt="Google Play"
+                                                              width="152"
+                                                              style="display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"
+                                                              class data-nl-type="DEEPLINK"
+                                                              data-tracking-type="DEEPLINK"
+                                                              id="acr-link-Footer-Appdownload"
+                                                              src="https://cdn.macyscominc.dev.cjmadobe.com/58ddabe3-da24-4db3-9dab-e3da24cdb378/urn:aaid:aem:71af3775-eea1-41ee-92ae-509f5da4459d/oak:1.0::ci:6a6afb7e3ac77515e4a29fabca4efc52/7935d16f-f29f-3767-9210-b4fe21f8dbbc"></a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </td>
+                                    </tr><!--<![endif]-->
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div><img
+    src="https://data.macyscominc.dev.cjmadobe.com/ee/v1/open?params=v1.NZdp8pF55cY94_3N8l7-zSR2DE4UC_bjRoUXPcnQ4td7u3l7MQOZplIzVmx8M-H9V97w0HR5zjcISiu2y5Hvc3362mcQfJ_8pybcR7Kk5hGNxiJsHnqxOcNQ5uJH7nEQxN1IkwNklikPpthq7lNg9GRxlVZc7Lhd5q2BBMJjtiTXdOs1URxb_ys4FzSeGclN02fjaPb6XXm3z_OK6x7lraFYTLXAU8ai9_JhWTcr4Lp2g83TFXfTzleLGBJ0qjINcxqQ_p1FJjtXqp4sQqNcbAur3Eemo5kI14JtbR3CErN0Ts1YZKoME8biuAywu8gQ_6xv7vBoyQ8KY7NoZ45CCGzAwuDQj5PBNfyoIoQk2E7mmieKOaV75ZmOnxVCsngePvJIX5nVvf0LR_xDd3A_RCXu&pid=v1.3zEbqncmhQ3gQYipMweW4aJrlT144thqQcKG870ypeVwmJoaNHGNEyPrPV2sBxDKtXAZjYk9kweJLWTka3ENdI9alQGH&tuid=6a26868c4bc319301224c2af&configId=bc6d6ff9-a61a-4b32-826b-8f6ce7f7669c"
+    width="1" height="1">
+</body>
+
+</html>
