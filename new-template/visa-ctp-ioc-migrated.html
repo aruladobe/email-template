@@ -10,7 +10,7 @@
     <meta name="x-apple-disable-message-reformatting">
     <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
-    <title>Your one-time code is 768431</title>
+    <title>Click to Pay is now a standard feature of your Visa card</title>
     <!--[if mso]>
   <noscript><xml><o:OfficeDocumentSettings>
     <o:PixelsPerInch>96</o:PixelsPerInch>
@@ -109,10 +109,6 @@
                 color: #BBBBBB !important;
             }
 
-            .ts {
-                color: #AAAAAA !important;
-            }
-
             .li {
                 display: none !important;
             }
@@ -170,10 +166,6 @@
             color: #BBBBBB !important;
         }
 
-        [data-ogsc] .ts {
-            color: #AAAAAA !important;
-        }
-
         [data-ogsc] .li {
             display: none !important;
         }
@@ -196,8 +188,8 @@
     class="bg-pg">
 
     <div style="display:none;max-height:0;overflow:hidden;font-size:1px;line-height:1px;color:#F0F0F0;mso-hide:all;">
-        Your one-time code to continue with Click to
-        Pay.&#32;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;</div>
+        Your Visa card(s) are now set up for Click to Pay, giving you a quicker, more secure way to check out
+        online.&#32;&#8199;&#65279;&#847;&zwnj;&nbsp;&#8199;&#65279;&#847;&zwnj;&nbsp;</div>
 
     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#F0F0F0"
         style="background-color:#F0F0F0;" class="bg-pg">
@@ -212,7 +204,7 @@
                         <td bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:12px 16px;" class="bg-hd">
                             <p style="margin:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:10px;color:#000000;line-height:14px;mso-line-height-rule:exactly;"
                                 class="tn">If you are unable to view this message correctly,&#32;<a
-                                    href="https://view.email.visa.com/otp"
+                                    href="https://view.email.visa.com/ioc-migrated"
                                     style="color:#1434CB;text-decoration:underline;" class="tl">click here</a>.</p>
                         </td>
                     </tr>
@@ -235,9 +227,7 @@
                     </tr>
 
 
-                    <!-- ═══ ROW: CTP HERO BANNER ═══
-     OTP design: single headline "Click to Pay" (no "Welcome to" second line).
-     VML v:rect locks #1434CB on Outlook Windows dark mode. -->
+                    <!-- ═══ ROW: CTP HERO BANNER ═══ -->
                     <tr>
                         <td bgcolor="#1434CB" style="background-color:#1434CB;padding:0;">
                             <!--[if mso]>
@@ -264,82 +254,90 @@
                     </tr>
 
 
-                    <!-- ═══ ROW: OTP CODE BLOCK ═══
-     OTP number: Verdana 36px / #1434CB (both light & dark per Figma)
-     Subtitle "is your one-time code": Verdana 18px / #4A4A4A
-     Body paragraph: Verdana 16px / #000000 -->
+                    <!-- ═══ ROW: HEADING + BODY BLOCK 1 ═══
+     Heading: Verdana 36px #1434CB (.tw → white in dark mode)
+     Body block 1: 2 paragraphs, 20px gap, <<Issuer Name>> placeholders
+     40px gap (Figma gap-[40px]) between heading and body, and between each content block -->
                     <tr>
                         <td bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:32px 32px 0 32px;" class="bg-bd">
-
-                            <!-- OTP number -->
-                            <p style="margin:0 0 10px 0;padding:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:36px;font-weight:400;color:#1434CB;line-height:47px;letter-spacing:0.5px;mso-line-height-rule:exactly;"
-                                class="tw">768431</p>
-
-                            <!-- OTP subtitle -->
-                            <p style="margin:0;padding:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:18px;font-weight:400;color:#4A4A4A;line-height:23px;mso-line-height-rule:exactly;"
-                                class="ts">is your one-time code</p>
-
+                            <p style="margin:0 0 40px 0;padding:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:36px;font-weight:400;color:#1434CB;line-height:47px;letter-spacing:0.5px;mso-line-height-rule:exactly;"
+                                class="tw">Click to Pay is now a standard feature of your Visa card</p>
+                            <p style="margin:0 0 20px 0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;color:#000000;line-height:24px;mso-line-height-rule:exactly;"
+                                class="tx">Your &lt;&lt;Issuer Name&gt;&gt; Visa card(s) are now successfully set up for
+                                Click to Pay, giving you a quicker, more secure way to check out online wherever Click
+                                to Pay is available.</p>
+                            <p style="margin:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;color:#000000;line-height:24px;mso-line-height-rule:exactly;"
+                                class="tx">If you&#8217;d prefer not to use Click to Pay, you can opt out through
+                                &lt;&lt;Issuer Name&gt;&gt;.</p>
                         </td>
                     </tr>
 
 
-                    <!-- ═══ ROW: BODY PARAGRAPH ═══ -->
+                    <!-- ═══ ROW: BODY BLOCK 2 — BULLETED LIST ═══
+     Intro paragraph + 2 bullet list items
+     Bullets use a two-cell table: 6px badge dot + text (Figma List Item pattern)
+     12px gap between list items (Figma gap-[12px] on List)
+     Badge: 6×6px filled blue circle rendered as an inline bullet disc -->
                     <tr>
                         <td bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:40px 32px 0 32px;" class="bg-bd">
-                            <p style="margin:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;color:#000000;line-height:24px;mso-line-height-rule:exactly;"
-                                class="tx">Let’s make sure it’s really you. Use the one-time code to continue with Click
-                                to Pay. It expires in five minutes. This code helps keep your account safe. Never share
-                                it with anyone.</p>
+                            <p style="margin:0 0 16px 0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;color:#000000;line-height:24px;mso-line-height-rule:exactly;"
+                                class="tx">Check communications from &lt;&lt;Issuer Name&gt;&gt; for details such as:
+                            </p>
+
+                            <!-- Bullet list — two-cell table per item: 6×24px badge container + text
+         Badge container matches line-height (24px) so dot optically centres on first text line.
+         padding-top:9px = (24px − 6px dot) ÷ 2 centres the dot within the line-height box. -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+
+                                <!-- Bullet item 1 -->
+                                <tr>
+                                    <td width="14" valign="top"
+                                        style="width:14px;padding-right:8px;padding-bottom:12px;">
+                                        <div
+                                            style="width:6px;height:24px;padding-top:9px;font-size:0;line-height:0;mso-line-height-rule:exactly;">
+                                            <div
+                                                style="width:6px;height:6px;background-color:#1434CB;border-radius:50%;font-size:0;line-height:0;mso-line-height-rule:exactly;">
+                                                <!--[if mso]>&nbsp;<![endif]--></div>
+                                        </div>
+                                    </td>
+                                    <td valign="top" style="padding-bottom:12px;">
+                                        <p style="margin:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;color:#000000;line-height:24px;mso-line-height-rule:exactly;"
+                                            class="tx">How to manage this service</p>
+                                    </td>
+                                </tr>
+
+                                <!-- Bullet item 2 -->
+                                <tr>
+                                    <td width="14" valign="top" style="width:14px;padding-right:8px;">
+                                        <div
+                                            style="width:6px;height:24px;padding-top:9px;font-size:0;line-height:0;mso-line-height-rule:exactly;">
+                                            <div
+                                                style="width:6px;height:6px;background-color:#1434CB;border-radius:50%;font-size:0;line-height:0;mso-line-height-rule:exactly;">
+                                                <!--[if mso]>&nbsp;<![endif]--></div>
+                                        </div>
+                                    </td>
+                                    <td valign="top">
+                                        <p style="margin:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;color:#000000;line-height:24px;mso-line-height-rule:exactly;"
+                                            class="tx">Which contact methods you&#8217;ll be using to access your cards
+                                            at checkout</p>
+                                    </td>
+                                </tr>
+
+                            </table>
                         </td>
                     </tr>
 
 
-                    <!-- ═══ ROW: DIVIDER + SUPPORT LINK ═══
-     Top border divider (rgba(0,0,0,0.1)) from Figma spec.
-     "Contact Visa Customer Support ›" link with chevron. -->
+                    <!-- ═══ ROW: BODY BLOCK 3 — CLOSING PARAGRAPH ═══
+     No action blocks, no dividers — goes straight to footer with 40px bottom padding -->
                     <tr>
-                        <td bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:24px 32px 24px 32px;"
+                        <td bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:40px 32px 24px 32px;"
                             class="bg-bd">
-
-                            <!-- Divider line -->
-                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
-                                style="margin-bottom:24px;">
-                                <tr>
-                                    <td
-                                        style="height:1px;background-color:#E0E0E0;font-size:0;line-height:0;mso-line-height-rule:exactly;">
-                                        &nbsp;</td>
-                                </tr>
-                            </table>
-
-                            <!-- Warning text -->
-                            <p style="margin:0 0 20px 0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;color:#000000;line-height:24px;mso-line-height-rule:exactly;"
-                                class="tx">If you didn’t make this request or don’t recognize this activity, please
-                                contact customer support.</p>
-
-                            <!-- Support link with chevron icon (light/dark swap) -->
-                            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td valign="middle" style="padding-right:5px;">
-                                        <a href="https://www.visa.com/support"
-                                            style="color:#1434CB;text-decoration:underline;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;line-height:24px;mso-line-height-rule:exactly;"
-                                            class="tl">Contact Visa Customer Support</a>
-                                    </td>
-                                    <td valign="middle" style="padding:0;">
-                                        <!--[if mso]><img src="https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/chevron_blue.png" width="8" height="16" alt="" style="display:block;width:8px;height:16px;border:0;"><![endif]-->
-                                        <!--[if !mso]><!-->
-                                        <img class="li-i"
-                                            src="https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/chevron_blue.png"
-                                            width="8" height="16" alt=""
-                                            style="display:inline-block;vertical-align:middle;width:8px;height:16px;border:0;">
-                                        <img class="di-i"
-                                            src="https://visaclicktopay-mid-prod1-res.adobe-campaign.com/res/visaclicktopay_mid_prod1/arrow-right-white.png"
-                                            width="8" height="16" alt=""
-                                            style="display:none;vertical-align:middle;width:8px;height:16px;border:0;">
-                                        <!--<![endif]-->
-                                    </td>
-                                </tr>
-                            </table>
-
+                            <p style="margin:0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;color:#000000;line-height:24px;mso-line-height-rule:exactly;"
+                                class="tx">Your checkout experience will now be managed by &lt;&lt;Issuer Name&gt;&gt;.
+                                Contact your bank for further information. If your Visa Click to Pay account has no
+                                remaining cards, your Visa Click to Pay account will be closed and your data is securely
+                                erased.</p>
                         </td>
                     </tr>
 
