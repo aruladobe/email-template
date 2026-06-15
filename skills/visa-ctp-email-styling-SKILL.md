@@ -477,7 +477,7 @@ Inner dot `6×6px` centred at `padding-top:9px` = `(24 − 6) ÷ 2`.
            width="13" height="8" alt="Click to Pay"
            style="display:none;vertical-align:middle;
                   width:13px;height:8px;border:0;">
-      <!--<![endif]--> is a trademark owned and used with permission of EMVCo, LCC.
+      <!--<![endif]--> is a trademark owned and used with permission of EMVCo, LLC.
     </p>
   </td>
 </tr>
